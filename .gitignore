@@ -1,0 +1,19 @@
+# 忽略运行时产物
+__pycache__/
+*.pyc
+
+# 本地状态与备份（绝不提交）
+state.json
+plan.json
+backup/
+reports/
+
+# 编辑器与系统文件
+*.swp
+*.swo
+*~
+.DS_Store
+
+# 本地临时文件
+/tmp/
+*.log

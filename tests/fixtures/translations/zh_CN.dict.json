@@ -1,0 +1,51 @@
+{
+  "schema": 1,
+  "language": "zh_CN",
+  "language_name": "简体中文",
+  "caelestia_shell": "2.5.0",
+  "package_version": "2.5.0-1",
+  "project_version": "1.0.0",
+  "global": {
+    "Wallpaper & style": "壁纸与样式",
+    "Cancel": "取消",
+    "Notifications": "通知",
+    "Single quoted": "单引号",
+    "Backtick quoted": "反引号",
+    "Quotes \"inside\" here": "内部含 \"引号\"",
+    "Line one\nLine two": "第一行\n第二行",
+    "%1 B/s": "%1 B/s",
+    "Enabled": "已启用",
+    "Disabled": "已禁用",
+    "Connect": "连接",
+    "Connection": "连接",
+    "Paused": "已暂停",
+    "PAUSED": "已暂停",
+    "Open": "开放",
+    "Open settings": "打开设置",
+    "%n device available": "%n 个设备可用",
+    "%n devices available": "%n 个设备可用",
+    "All up to date!": "暂无新通知",
+    "Recording for %1": "已录制 %1",
+    "Ready": "就绪"
+  },
+  "contexts": {
+    "toggle label": {
+      "Enabled": "启用"
+    },
+    "panel status": {
+      "Enabled": "已启用",
+      "Disabled": "已禁用"
+    },
+    "recording status": {
+      "PAUSED": "已暂停"
+    },
+    "wifi security type": {
+      "Open": "开放"
+    }
+  },
+  "overrides": {
+    "components/Basic.qml": {
+      "Cancel": "取消"
+    }
+  }
+}

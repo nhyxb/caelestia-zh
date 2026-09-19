@@ -1,0 +1,5895 @@
+{
+  "schema": 1,
+  "language": "zh_CN",
+  "language_name": "简体中文",
+  "caelestia_shell": "2.5.0",
+  "package_version": "2.5.0-1",
+  "project_version": "1.0.0",
+  "global": {
+    "Cancel": "取消",
+    "Select": "选择",
+    "Browse": "浏览",
+    "Random": "随机",
+    "Connect": "连接",
+    "Disconnect": "断开",
+    "Forget": "忘记",
+    "Apply": "应用",
+    "Save": "保存",
+    "Delete": "删除",
+    "Add": "添加",
+    "Back": "返回",
+    "Filter:": "筛选：",
+    "All files": "所有文件",
+    "Select a file": "选择文件",
+    "This folder is empty": "此文件夹为空",
+    "Files": "文件",
+    "\"%1\" selected": "已选择 \"%1\"",
+    ", ": "、",
+    "%1 (%2)": "%1（%2）",
+    "%1 - %2": "%1 - %2",
+    "%1 / %2": "%1 / %2",
+    "%1%": "%1%",
+    "%1 ms": "%1 毫秒",
+    "%1 MHz": "%1 MHz",
+    "%1 Gbps": "%1 Gbps",
+    "%1 Mbps": "%1 Mbps",
+    "%1 km/h": "%1 km/h",
+    "°C": "°C",
+    "°F": "°F",
+    "K": "K",
+    "Auto": "自动",
+    "Manual": "手动",
+    "Local": "本地",
+    "Generic": "通用",
+    "Important": "重要",
+    "On": "开启",
+    "Off": "关闭",
+    "Enabled": "已启用",
+    "Disabled": "已禁用",
+    "Unknown": "未知",
+    "Unavailable": "不可用",
+    "None": "无",
+    "Unknown reason": "未知原因",
+    "Unknown error": "未知错误",
+    "Unknown track": "未知曲目",
+    "Unknown artist": "未知艺术家",
+    "Unknown album": "未知专辑",
+    "Unknown title": "未知标题",
+    "Unknown network": "未知网络",
+    "Unknown city": "未知城市",
+    "Unknown device": "未知设备",
+    "Unknown application": "未知应用",
+    "Unnamed": "未命名",
+    "No description": "无描述",
+    "No results": "无结果",
+    "Loading...": "加载中...",
+    "Calculating...": "正在计算...",
+    "Connecting...": "正在连接...",
+    "Disconnecting...": "正在断开...",
+    "Collecting data...": "正在收集数据...",
+    "Detecting GPU...": "正在检测 GPU...",
+    "Selected": "已选择",
+    "Saved": "已保存",
+    "Connected": "已连接",
+    "Not connected": "未连接",
+    "Connected • %1": "已连接 • %1",
+    "Not connected • %1": "未连接 • %1",
+    "Connected to %1": "已连接到 %1",
+    "Disconnected from %1": "已断开与 %1 的连接",
+    "Status": "状态",
+    "Speed": "速率",
+    "Visible icons": "可见图标",
+    "Output": "输出",
+    "Input": "输入",
+    "Muted": "已静音",
+    "No output devices": "无输出设备",
+    "No input devices": "无输入设备",
+    "Always visible": "始终可见",
+    "Reveal on hover": "悬停时显示",
+    "Reveal on drag": "拖拽时显示",
+    "Enterprise": "企业",
+    "Enhanced Open": "增强开放",
+    "Try playing some music!": "播放点音乐试试吧！",
+    "Wireless": "无线",
+    "Ethernet": "有线网络",
+    "Wired connection": "有线连接",
+    "Rescan networks": "重新扫描网络",
+    "%n network available": "%n 个网络可用",
+    "%n networks available": "%n 个网络可用",
+    "%n device available": "%n 个设备可用",
+    "%n devices available": "%n 个设备可用",
+    "%n device available (%1 connected)": "%n 个设备可用（%1 个已连接）",
+    "%n devices available (%1 connected)": "%n 个设备可用（%1 个已连接）",
+    "Bluetooth": "蓝牙",
+    "Discovering": "正在发现",
+    "Open settings": "打开设置",
+    "Enter password": "输入密码",
+    "Network: %1": "网络：%1",
+    "Connection failed. Please check your password and try again.": "连接失败。请检查密码后重试。",
+    "Password": "密码",
+    "Caps lock enabled": "大写锁定已开启",
+    "Caps lock disabled": "大写锁定已关闭",
+    "Num lock enabled": "数字锁定已开启",
+    "Num lock disabled": "数字锁定已关闭",
+    "Keyboard layouts": "键盘布局",
+    "XKB limitation: maximum 4 layouts allowed": "XKB 限制：最多允许 4 种布局",
+    "Keyboard layout limit": "键盘布局数量限制",
+    "XKB supports only 4 layouts at a time": "XKB 一次仅支持 4 种布局",
+    "The device is too hot": "设备过热",
+    "The device is on a lap": "设备放在腿上",
+    "Balanced": "平衡",
+    "Performance": "性能",
+    "Power saver": "节能",
+    "Remaining: %1%": "剩余：%1%",
+    "No battery detected": "未检测到电池",
+    "Power profile: %1": "电源模式：%1",
+    "Time remaining: %1": "剩余时间：%1",
+    "Calculating remaining battery life...": "正在计算剩余续航...",
+    "Time until charged: %1": "充满还需：%1",
+    "Fully charged!": "已充满！",
+    "Calculating time until charged...": "正在计算充电剩余时间...",
+    "Performance degraded": "性能受限",
+    "%n day": "%n 天",
+    "%n days": "%n 天",
+    "%n hour": "%n 小时",
+    "%n hours": "%n 小时",
+    "%n min": "%n 分钟",
+    "%n mins": "%n 分钟",
+    "%n minute": "%n 分钟",
+    "%n minutes": "%n 分钟",
+    "%n notification": "%n 条通知",
+    "%n notifications": "%n 条通知",
+    "%1d": "%1 天",
+    "%1h": "%1 小时",
+    "%1m": "%1 分钟",
+    "now": "刚刚",
+    "Volume (muted)": "音量（已静音）",
+    "Volume (%1%)": "音量（%1%）",
+    "Output device": "输出设备",
+    "Input device": "输入设备",
+    "Dashboard": "仪表盘",
+    "Media": "媒体",
+    "Weather": "天气",
+    "Nothing playing": "没有正在播放的内容",
+    "No media": "无媒体",
+    "Play something for it to show up here!": "播放内容后就会显示在这里！",
+    "No widgets enabled": "未启用任何组件",
+    "Enable widgets in the dashboard settings": "在仪表盘设置中启用组件",
+    "CPU": "CPU",
+    "GPU": "GPU",
+    "Sunrise": "日出",
+    "Sunset": "日落",
+    "Humidity": "湿度",
+    "Feels like": "体感温度",
+    "Feels like %1": "体感 %1",
+    "Wind": "风速",
+    "7-day forecast": "7 天预报",
+    "Hourly forecast": "逐小时预报",
+    "High %1 • Low %2": "最高 %1 • 最低 %2",
+    "Today": "今天",
+    "Now": "现在",
+    "up %1": "已运行 %1",
+    "Usage": "使用率",
+    "Memory": "内存",
+    "Used": "已用",
+    "Storage": "存储",
+    "Download": "下载",
+    "Upload": "上传",
+    "Total": "总计",
+    "↓%1 ↑%2": "↓%1 ↑%2",
+    "No disks detected": "未检测到磁盘",
+    "No disks": "无磁盘",
+    "Battery": "电池",
+    "Full": "已充满",
+    "Charging": "充电中",
+    "%1h %2m": "%1 小时 %2 分",
+    "Loading lyrics...": "正在加载歌词...",
+    "No lyrics found": "未找到歌词",
+    "Lyrics": "歌词",
+    "No players": "没有播放器",
+    "Backend: %1": "歌词来源：%1",
+    "Selected candidate: %1 | %2 | %3": "已选候选：%1 | %2 | %3",
+    "Offset: %1 ms": "偏移：%1 毫秒",
+    "Select a profile picture": "选择头像",
+    "Image files": "图片文件",
+    "Profile picture changed": "头像已更换",
+    "Profile picture changed to %1": "头像已更换为 %1",
+    "Unable to change profile picture": "无法更换头像",
+    "Failed to change profile picture to %1": "无法将头像更换为 %1",
+    "Type \"%1\" for commands": "输入 \"%1\" 以执行命令",
+    "No wallpapers found": "未找到壁纸",
+    "Try putting some wallpapers in %1": "试着把壁纸放进 %1",
+    "Try searching for something else": "换个关键词试试",
+    "Type an expression to calculate": "输入表达式以计算",
+    "Open in calculator": "在计算器中打开",
+    "Vibrant": "鲜艳",
+    "A high chroma palette. The primary palette's chroma is at maximum.": "高饱和度配色，主色调饱和度最高。",
+    "Tonal Spot": "色调点缀",
+    "Default for Material theme colours. A pastel palette with a low chroma.": "Material 主题配色的默认值，低饱和度的柔和配色。",
+    "Expressive": "表现力",
+    "A medium chroma palette. The primary palette's hue is different from the seed colour, for variety.": "中等饱和度配色。为增加变化，主色调色相与种子颜色不同。",
+    "Fidelity": "保真",
+    "Matches the seed colour, even if the seed colour is very bright (high chroma).": "贴近种子颜色，即使种子颜色非常鲜艳（高饱和度）也是如此。",
+    "Content": "内容",
+    "Almost identical to fidelity.": "与「保真」几乎相同。",
+    "Fruit Salad": "水果沙拉",
+    "A playful theme - the seed colour's hue does not appear in the theme.": "活泼的主题——种子颜色的色相不会出现在主题中。",
+    "Rainbow": "彩虹",
+    "Neutral": "中性",
+    "Close to greyscale, a hint of chroma.": "接近灰度，略带一点色彩。",
+    "Monochrome": "单色",
+    "All colours are greyscale, no chroma.": "所有颜色均为灰度，无饱和度。",
+    "Scanning face...": "正在扫描面部...",
+    "Max tries reached": "已达到最大尝试次数",
+    "Enter your password": "请输入密码",
+    "FP ERROR: %1": "指纹错误：%1",
+    "FACE ERROR: %1": "面部错误：%1",
+    "PW ERROR: %1": "密码错误：%1",
+    "Fingerprint not recognised (%1/%2). Please try again or use password.": "无法识别指纹（%1/%2）。请重试或使用密码。",
+    "Face not recognised (%1/%2). Please try again or use password.": "无法识别面部（%1/%2）。请重试或使用密码。",
+    "Fingerprint not recognised (%1/%2). Please try again.": "无法识别指纹（%1/%2）。请重试。",
+    "Face not recognised (%1/%2). Please try again.": "无法识别面部（%1/%2）。请重试。",
+    "Incorrect password. Please try again or use fingerprint.": "密码错误。请重试或使用指纹。",
+    "Incorrect password. Please try again or use face.": "密码错误。请重试或使用面部识别。",
+    "Incorrect password. Please try again.": "密码错误。请重试。",
+    "Maximum password attempts reached. Please use fingerprint.": "密码尝试次数已达上限。请使用指纹。",
+    "Maximum password attempts reached. Please use face.": "密码尝试次数已达上限。请使用面部识别。",
+    "Maximum attempts for all authentication methods reached.": "所有认证方式均已达到最大尝试次数。",
+    "Maximum password attempts reached.": "密码尝试次数已达上限。",
+    "Maximum fingerprint attempts reached. Please use password.": "指纹尝试次数已达上限。请使用密码。",
+    "Maximum face attempts reached. Please use password.": "面部识别尝试次数已达上限。请使用密码。",
+    "Caps lock and Num lock are ON.\nKeyboard layout: %1": "大写锁定和数字锁定均已开启。\n键盘布局：%1",
+    "Caps lock is ON. Keyboard layout: %1": "大写锁定已开启。键盘布局：%1",
+    "Num lock is ON. Keyboard layout: %1": "数字锁定已开启。键盘布局：%1",
+    "Keyboard layout: %1": "键盘布局：%1",
+    "Caps lock and Num lock are ON.": "大写锁定和数字锁定均已开启。",
+    "Caps lock is ON.": "大写锁定已开启。",
+    "Num lock is ON.": "数字锁定已开启。",
+    "Unlock for notifications": "解锁以查看通知",
+    "No notifications": "没有通知",
+    "OS  : %1": "系统: %1",
+    "WM  : %1": "窗管: %1",
+    "USER: %1": "用户: %1",
+    "UP  : %1": "运行: %1",
+    "BATT: (+) %1%": "电池: (+) %1%",
+    "BATT: %1%": "电池: %1%",
+    "Search settings": "搜索设置",
+    "Page under construction": "页面正在开发中",
+    "This page will be available in a future update.": "此页面将在后续更新中提供。",
+    "Wallpaper & style": "壁纸与样式",
+    "Wallpaper, fonts, colours": "壁纸、字体、配色",
+    "Display": "显示",
+    "Output configuration": "输出配置",
+    "Network": "网络",
+    "Wi-Fi, ethernet, VPN": "Wi-Fi、有线网络、VPN",
+    "Connected devices": "已连接的设备",
+    "Bluetooth, pairing": "蓝牙、配对",
+    "Audio": "音频",
+    "App volumes, sound devices": "应用音量、声音设备",
+    "Updates": "更新",
+    "System updates": "系统更新",
+    "Plugins": "插件",
+    "Manage plugins": "管理插件",
+    "Panels": "面板",
+    "Dashboard, taskbar, launcher, sidebar": "仪表盘、任务栏、启动器、侧边栏",
+    "Apps": "应用",
+    "Default apps, favourites, hidden apps": "默认应用、收藏、隐藏应用",
+    "Services": "服务",
+    "Poll intervals, lyrics backend": "轮询间隔、歌词来源",
+    "Language & region": "语言与区域",
+    "UI language, weather location, display units": "界面语言、天气位置、显示单位",
+    "About": "关于",
+    "System information, credits": "系统信息、致谢",
+    "Nexus — %1": "Nexus — %1",
+    "General": "通用",
+    "Behaviour": "行为",
+    "Components": "组件",
+    "Cards": "卡片",
+    "Tabs": "标签页",
+    "Show on hover": "悬停时显示",
+    "Reveal when the cursor reaches the screen edge": "光标到达屏幕边缘时显示",
+    "Show clock seconds": "显示时钟秒数",
+    "Display seconds for the clock in the main panel": "在主面板的时钟上显示秒数",
+    "Drag threshold": "拖拽阈值",
+    "Pixels dragged before the dashboard opens": "打开仪表盘前需要拖拽的像素数",
+    "Persistent": "常驻",
+    "Keep the bar visible at all times": "始终保持任务栏可见",
+    "Reveal the bar when the cursor reaches the screen edge": "光标到达屏幕边缘时显示任务栏",
+    "Pixels dragged before the bar reveals": "显示任务栏前需要拖拽的像素数",
+    "Workspaces": "工作区",
+    "Indicators, window icons": "指示器、窗口图标",
+    "Active window": "活动窗口",
+    "Title display, popout": "标题显示、弹窗",
+    "Tray": "托盘",
+    "System tray icons": "系统托盘图标",
+    "Status icons": "状态图标",
+    "Visible indicators": "可见指示器",
+    "Clock": "时钟",
+    "Date, icon, background": "日期、图标、背景",
+    "Scroll actions": "滚动操作",
+    "Scroll over the workspace indicator to switch workspaces": "在工作区指示器上滚动以切换工作区",
+    "Volume": "音量",
+    "Scroll on the top half of the bar to adjust volume": "在任务栏上半部分滚动以调节音量",
+    "Brightness": "亮度",
+    "Scroll on the bottom half of the bar to adjust brightness": "在任务栏下半部分滚动以调节亮度",
+    "Performance widgets": "性能组件",
+    "Show the utilities panel": "显示工具面板",
+    "Keep awake": "保持唤醒",
+    "Show the idle inhibitor card": "显示防休眠卡片",
+    "Screen recorder": "屏幕录制",
+    "Show the screen recorder card": "显示屏幕录制卡片",
+    "Quick toggles": "快捷开关",
+    "Show the quick toggles card": "显示快捷开关卡片",
+    "Wi-Fi": "Wi-Fi",
+    "Toggle wireless networking": "开关无线网络",
+    "Toggle the Bluetooth adapter": "开关蓝牙适配器",
+    "Microphone": "麦克风",
+    "Mute or unmute the default source": "静音或取消静音默认输入设备",
+    "Settings": "设置",
+    "Open the settings window": "打开设置窗口",
+    "Game mode": "游戏模式",
+    "Toggle game mode": "开关游戏模式",
+    "Do not disturb": "免打扰",
+    "Silence notifications": "静音通知",
+    "VPN": "VPN",
+    "Connect or disconnect the VPN": "连接或断开 VPN",
+    "Action prefix": "动作前缀",
+    "Prefix used to run actions in the launcher": "在启动器中执行动作的前缀",
+    "Prefix must not be alphanumeric": "前缀不能包含字母或数字",
+    "Max items shown": "最大显示数量",
+    "Max wallpapers": "最大壁纸数量",
+    "Pixels dragged before the launcher opens": "打开启动器前需要拖拽的像素数",
+    "Vim keybinds": "Vim 快捷键",
+    "Navigate results with Ctrl+hjkl": "使用 Ctrl+hjkl 浏览结果",
+    "Enable dangerous actions": "启用危险操作",
+    "Allow actions that shut down or log out": "允许关机或注销等操作",
+    "Fuzzy search": "模糊搜索",
+    "Actions": "动作",
+    "Schemes": "配色方案",
+    "Variants": "配色变体",
+    "Sidebar": "侧边栏",
+    "Pixels dragged before the sidebar opens": "打开侧边栏前需要拖拽的像素数",
+    "Taskbar": "任务栏",
+    "Launcher": "启动器",
+    "Utilities": "工具面板",
+    "Add entry": "添加条目",
+    "Add new entry": "添加新条目",
+    "Lock keys": "锁定键",
+    "Keyboard layout": "键盘布局",
+    "Speakers": "扬声器",
+    "Recolour icons": "重新着色图标",
+    "Show the tray menu popout when hovering": "悬停时显示托盘菜单弹窗",
+    "Popout on hover": "悬停时弹出",
+    "Only show the active window title while hovering": "仅在悬停时显示活动窗口标题",
+    "Show a window details popout when hovering": "悬停时显示窗口详情弹窗",
+    "Show a details popout when hovering the status icons": "悬停状态图标时显示详情弹窗",
+    "Compact": "紧凑",
+    "Inverted": "反色",
+    "Background": "背景",
+    "Show date": "显示日期",
+    "Show icon": "显示图标",
+    "Show seconds": "显示秒数",
+    "Shown": "显示数量",
+    "Number of workspaces displayed": "显示的工作区数量",
+    "Active indicator": "活动指示器",
+    "Active trail": "活动轨迹",
+    "Occupied background": "占用背景",
+    "Show unoccupied": "显示未占用的工作区",
+    "Show workspaces that are inactive and empty": "显示未激活且空闲的工作区",
+    "Per monitor": "按显示器区分",
+    "Hide workspaces not on the current monitor": "隐藏不在当前显示器上的工作区",
+    "Show windows": "显示窗口",
+    "Show icons of open windows on each workspace": "在每个工作区上显示已打开窗口的图标",
+    "Windows on special workspaces": "特殊工作区上的窗口",
+    "Max window icons": "最大窗口图标数",
+    "Notifications": "通知",
+    "Notifications, toasts, timeouts": "通知、横幅、超时",
+    "Polling": "轮询",
+    "Media refresh": "媒体刷新",
+    "How often the media position updates (ms)": "媒体进度的更新频率（毫秒）",
+    "System stats refresh": "系统状态刷新",
+    "CPU, memory and GPU update interval (seconds)": "CPU、内存与 GPU 的更新间隔（秒）",
+    "Wi-Fi rescan": "Wi-Fi 重新扫描",
+    "How often available networks are rescanned (seconds)": "重新扫描可用网络的频率（秒）",
+    "Media & lyrics": "媒体与歌词",
+    "Lyrics backend": "歌词来源",
+    "Source used to fetch synced lyrics": "用于获取同步歌词的来源",
+    "Default player": "默认播放器",
+    "Preferred media player when several are open": "打开多个播放器时优先使用的媒体播放器",
+    "Input increments": "输入步进",
+    "Volume step": "音量步进",
+    "Amount the volume changes per scroll (%)": "每次滚动时音量的变化幅度（%）",
+    "Brightness step": "亮度步进",
+    "Amount the brightness changes per scroll (%)": "每次滚动时亮度的变化幅度（%）",
+    "Max volume": "最大音量",
+    "Upper limit for output volume (%)": "输出音量的上限（%）",
+    "Service tuning": "服务调节",
+    "Visualiser bars": "可视化条数",
+    "Number of bars in the audio visualisers": "音频可视化中的柱状条数",
+    "Smart colour scheme": "智能配色方案",
+    "Derive theme mode and variant from the wallpaper": "根据壁纸推导主题模式与配色变体",
+    "Monitoring: %1": "监控：%1",
+    "Override for GPU type": "覆盖 GPU 类型",
+    "Wallpaper disabled": "壁纸已禁用",
+    "Wallpapers": "壁纸",
+    "Colours": "配色",
+    "Display wallpaper": "显示壁纸",
+    "Transparency": "透明度",
+    "Base %1, layers %2": "底层 %1，层级 %2",
+    "Dark theme": "深色主题",
+    "Language": "语言",
+    "UI language": "界面语言",
+    "The language used in the shell UI": "Shell 界面使用的语言",
+    "Location picker coming soon": "位置选择器即将推出",
+    "Choose your weather location on a map in a future update": "在未来的更新中通过地图选择天气位置",
+    "Units": "单位",
+    "Temperature": "温度",
+    "Units for weather temperatures": "天气温度单位",
+    "System temperatures": "系统温度",
+    "Units for CPU and GPU temperatures": "CPU 与 GPU 温度单位",
+    "Data sizes": "数据大小",
+    "Units for data sizes and network speeds": "数据大小与网络速度单位",
+    "Time & date": "时间与日期",
+    "Clock format": "时钟格式",
+    "How times are shown across the shell": "Shell 中时间的显示方式",
+    "Binary (KiB, MiB)": "二进制（KiB、MiB）",
+    "Decimal (KB, MB)": "十进制（KB、MB）",
+    "12-hour": "12 小时制",
+    "24-hour": "24 小时制",
+    "All apps": "所有应用",
+    "Default applications": "默认应用",
+    "Terminal": "终端",
+    "Media playback": "媒体播放",
+    "File manager": "文件管理器",
+    "Library": "应用库",
+    "Browse installed apps, set favourites and hidden": "浏览已安装的应用，设置收藏与隐藏",
+    "App info": "应用信息",
+    "Favourite": "收藏",
+    "Matched by a regex in favouriteApps — edit the config file to change": "由 favouriteApps 中的正则匹配——请编辑配置文件进行修改",
+    "Pin to the top of the launcher": "固定到启动器顶部",
+    "Hidden": "已隐藏",
+    "Matched by a regex in hiddenApps — edit the config file to change": "由 hiddenApps 中的正则匹配——请编辑配置文件进行修改",
+    "Hide from the launcher": "从启动器中隐藏",
+    "Details": "详细信息",
+    "App ID": "应用 ID",
+    "Command": "命令",
+    "App volumes": "应用音量",
+    "Adjust the volume of individual apps currently playing audio.": "调节当前正在播放声音的应用的音量。",
+    "No apps playing audio": "没有应用正在播放音频",
+    "%n app playing audio": "%n 个应用正在播放音频",
+    "%n apps playing audio": "%n 个应用正在播放音频",
+    "Pair new device": "配对新设备",
+    "Available devices": "可用设备",
+    "Searching for devices…": "正在搜索设备…",
+    "Pairing...": "正在配对...",
+    "No saved devices": "没有已保存的设备",
+    "Bluetooth disabled": "蓝牙已禁用",
+    "Paired": "已配对",
+    "Not paired": "未配对",
+    "Device": "设备",
+    "Trusted": "受信任",
+    "Allow this device to connect automatically": "允许此设备自动连接",
+    "Blocked": "已屏蔽",
+    "Prevent this device from connecting": "阻止此设备连接",
+    "Wake allowed": "允许唤醒",
+    "Allow this device to wake the system": "允许此设备唤醒系统",
+    "Address": "地址",
+    "Discoverable": "可被发现",
+    "Allow nearby devices to find this one": "允许附近的设备发现本机",
+    "Pairable": "可被配对",
+    "Allow nearby devices to pair with this one": "允许附近的设备与本机配对",
+    "Show all networks (%1)": "显示全部网络（%1）",
+    "Saved networks": "已保存的网络",
+    "Add network": "添加网络",
+    "No VPN providers configured": "未配置 VPN 提供商",
+    "Tap to select": "点击选择",
+    "Authentication required": "需要认证",
+    "An error occurred": "发生错误",
+    "Current ping": "当前延迟",
+    "Add provider": "添加提供商",
+    "Interface": "接口",
+    "No networks found": "未找到网络",
+    "Wi-Fi disabled": "Wi-Fi 已禁用",
+    "Security: %1 • %2": "安全性：%1 • %2",
+    "Security: %1": "安全性：%1",
+    "All networks": "全部网络",
+    "Filters": "筛选",
+    "Secured": "加密",
+    "5 GHz": "5 GHz",
+    "2.4 GHz": "2.4 GHz",
+    "No saved networks": "没有已保存的网络",
+    "Open": "开放",
+    "Connection": "连接",
+    "Signal": "信号",
+    "Security": "安全性",
+    "Frequency": "频率",
+    "IP address": "IP 地址",
+    "Gateway": "网关",
+    "MAC address": "MAC 地址",
+    "Connect automatically": "自动连接",
+    "Join this network when it's in range": "在信号范围内时自动加入此网络",
+    "IPv4": "IPv4",
+    "IP assignment": "IP 分配",
+    "Automatic (DHCP)": "自动（DHCP）",
+    "Automatic, DNS only": "自动，仅 DNS",
+    "Address (CIDR)": "地址（CIDR）",
+    "IP and prefix, e.g. 192.168.1.50/24": "IP 与前缀，例如 192.168.1.50/24",
+    "Enter a valid address in CIDR notation": "请输入有效的 CIDR 地址",
+    "Enter a valid gateway address": "请输入有效的网关地址",
+    "DNS servers": "DNS 服务器",
+    "Comma-separated": "以逗号分隔",
+    "Enter valid DNS server addresses": "请输入有效的 DNS 服务器地址",
+    "Enter the details below to manually connect to a network.": "在下方填写信息以手动连接到网络。",
+    "Network name (SSID)": "网络名称（SSID）",
+    "e.g. MyHiddenNetwork": "例如 MyHiddenNetwork",
+    "Network name is required": "请输入网络名称",
+    "Hidden network": "隐藏网络",
+    "Actively probe for a network that doesn't broadcast its name": "主动探测不广播名称的网络",
+    "WPA/WPA2/WPA3 Personal": "WPA/WPA2/WPA3 个人版",
+    "None (open)": "无（开放）",
+    "WPA passwords are at least 8 characters": "WPA 密码至少需要 8 个字符",
+    "Connection failed — check the password": "连接失败——请检查密码",
+    "Password must be at least 8 characters": "密码至少需要 8 个字符",
+    "Edit VPN provider": "编辑 VPN 提供商",
+    "Add VPN provider": "添加 VPN 提供商",
+    "Built-in names (wireguard, warp, tailscale, netbird) auto-fill their commands. For others, provide the connect/disconnect commands.": "内置名称（wireguard、warp、tailscale、netbird）会自动填充命令。其他提供商需要自行提供连接/断开命令。",
+    "Provider name": "提供商名称",
+    "Built-in id or a custom name": "内置 ID 或自定义名称",
+    "Provider name is required": "请输入提供商名称",
+    "Display name": "显示名称",
+    "Shown in the list": "显示在列表中",
+    "Network interface (for WireGuard / status checks)": "网络接口（用于 WireGuard / 状态检查）",
+    "Custom commands (optional)": "自定义命令（可选）",
+    "Connect command": "连接命令",
+    "Disconnect command": "断开命令",
+    "Leave empty to use the built-in default": "留空以使用内置默认值",
+    "Data usage: %1": "流量使用：%1",
+    "Local IP Address": "本地 IP 地址",
+    "Primary DNS": "首选 DNS",
+    "Hostname": "主机名",
+    "Distro": "发行版",
+    "Kernel": "内核",
+    "Firmware": "固件",
+    "Software": "软件",
+    "System": "系统",
+    "CLI": "CLI",
+    "Shell": "Shell",
+    "Loaded plugins": "已加载的插件",
+    "Select an image": "选择图片",
+    "Featured wallpaper": "精选壁纸",
+    "Local wallpapers": "本地壁纸",
+    "No local wallpapers found": "未找到本地壁纸",
+    "Show in fullscreen": "全屏时显示",
+    "Whether notifications appear over fullscreen apps": "通知是否在全屏应用上方显示",
+    "Expire automatically": "自动过期",
+    "Dismiss notifications after their timeout": "超时后自动关闭通知",
+    "Open expanded": "默认展开",
+    "Show notifications expanded by default": "默认展开显示通知",
+    "Default timeout": "默认超时",
+    "Time before a notification dismisses (ms)": "通知自动关闭前的等待时间（毫秒）",
+    "Group preview count": "分组预览数量",
+    "Notifications shown per group before collapsing": "折叠前每组显示的通知数量",
+    "Toasts": "横幅通知",
+    "Whether toasts appear over fullscreen apps": "横幅是否在全屏应用上方显示",
+    "Visible toasts": "可见横幅数",
+    "Maximum number of toasts shown at once": "同时显示的横幅数量上限",
+    "Toast events": "横幅事件",
+    "Charging changes": "充电状态变化",
+    "Game mode changes": "游戏模式变化",
+    "Do not disturb changes": "免打扰变化",
+    "Audio output changes": "音频输出变化",
+    "Audio input changes": "音频输入变化",
+    "Caps lock changes": "大写锁定变化",
+    "Num lock changes": "数字锁定变化",
+    "Keyboard layout changes": "键盘布局变化",
+    "VPN changes": "VPN 变化",
+    "No body here! :/": "这里没有正文呢！:/",
+    "All up to date!": "暂无新通知",
+    "Delete recording?": "删除录像？",
+    "Recording '%1' will be permanently deleted.": "录像 “%1” 将被永久删除。",
+    "Active since %1": "自 %1 起生效",
+    "Preventing sleep mode": "正在阻止系统睡眠",
+    "Normal power management": "正常电源管理",
+    "Paused": "已暂停",
+    "Running...": "录制中...",
+    "Ready": "就绪",
+    "Record fullscreen": "录制全屏",
+    "Fullscreen": "全屏",
+    "Record region": "录制区域",
+    "Region": "区域",
+    "Record fullscreen with sound": "录制全屏（含声音）",
+    "Record region with sound": "录制区域（含声音）",
+    "PAUSED": "已暂停",
+    "REC": "REC",
+    "Recording for %1": "已录制 %1",
+    "Recordings": "录像",
+    "Recording at %1": "录制于 %1",
+    "No recordings found": "未找到录像",
+    "Move to workspace": "移动到工作区",
+    "Tile": "平铺",
+    "Float": "浮动",
+    "Unpin": "取消固定",
+    "Pin": "固定",
+    "Kill": "强制关闭",
+    "No active client": "无活动窗口",
+    "Try switching to a window": "试着切换到某个窗口",
+    "Address: %1": "地址：%1",
+    "Address: unknown": "地址：未知",
+    "Position: %1, %2": "位置：%1, %2",
+    "Size: %1 x %2": "尺寸：%1 x %2",
+    "Workspace: %1 (%2)": "工作区：%1（%2）",
+    "Monitor: %1 (%2) at %3, %4": "显示器：%1（%2），位于 %3, %4",
+    "Monitor: unknown": "显示器：未知",
+    "Initial title: %1": "初始标题：%1",
+    "Initial title: unknown": "初始标题：未知",
+    "Initial class: %1": "初始类名：%1",
+    "Initial class: unknown": "初始类名：未知",
+    "Process id: %1": "进程 ID：%1",
+    "Floating: yes": "浮动：是",
+    "Floating: no": "浮动：否",
+    "Xwayland: yes": "Xwayland：是",
+    "Xwayland: no": "Xwayland：否",
+    "Pinned: yes": "固定：是",
+    "Pinned: no": "固定：否",
+    "Fullscreen state: off": "全屏状态：关闭",
+    "Fullscreen state: maximised": "全屏状态：最大化",
+    "Fullscreen state: on": "全屏状态：开启",
+    "Fullscreen state: unknown": "全屏状态：未知",
+    "%1 on monitor %2 at %3, %4": "%1，显示器 %2，位于 %3, %4",
+    "Battery warning": "电池警告",
+    "Battery level is low": "电量不足",
+    "Hibernating in 5 seconds": "5 秒后进入休眠",
+    "Hibernating to prevent data loss": "为防止数据丢失即将休眠",
+    "Charger unplugged": "已拔下充电器",
+    "Battery is discharging": "电池正在放电",
+    "Charger plugged in": "已插上充电器",
+    "Battery is charging": "电池正在充电",
+    "Screenshot taken": "截图已保存",
+    "Screenshot copied to clipboard": "截图已复制到剪贴板",
+    "Wallpaper missing?": "壁纸不见了？",
+    "Select a wallpaper": "选择壁纸",
+    "Set it now!": "立即设置！",
+    "Desktop": "桌面",
+    "Audio output changed": "音频输出已切换",
+    "Now using: %1": "正在使用：%1",
+    "Audio input changed": "音频输入已切换",
+    "Game mode enabled": "游戏模式已开启",
+    "Disabled Hyprland animations, blur, gaps and shadows": "已关闭 Hyprland 动画、模糊、间隙与阴影",
+    "Game mode disabled": "游戏模式已关闭",
+    "Hyprland settings restored": "已恢复 Hyprland 设置",
+    "Do not disturb enabled": "免打扰已开启",
+    "Popup notifications are now disabled": "弹出通知已关闭",
+    "Do not disturb disabled": "免打扰已关闭",
+    "Popup notifications are now enabled": "弹出通知已开启",
+    "Now playing": "正在播放",
+    "VPN connection failed": "VPN 连接失败",
+    "VPN disconnection failed": "VPN 断开失败",
+    "Login required": "需要登录",
+    "Machine authorisation required": "需要设备授权",
+    "Tailscale may not be running": "Tailscale 可能未运行",
+    "Failed to parse status": "无法解析状态",
+    "WARP registration required": "需要注册 WARP",
+    "Unknown WARP status": "未知 WARP 状态",
+    "VPN connected": "VPN 已连接",
+    "VPN disconnected": "VPN 已断开",
+    "VPN authentication required": "VPN 需要认证",
+    "%1: %2": "%1：%2",
+    "VPN error": "VPN 错误",
+    "WireGuard module not loaded. Run: %1": "WireGuard 模块未加载。请运行：%1",
+    "Permission denied. Run in terminal: %1": "权限不足。请在终端运行：%1",
+    "Service not running (run: %1)": "服务未运行（请运行：%1）",
+    "Could not start %1. Is it installed?": "无法启动 %1。是否已安装？",
+    "Could not connect to %1": "无法连接到 %1",
+    "No weather": "无天气数据",
+    "Clear": "晴",
+    "Partly cloudy": "局部多云",
+    "Overcast": "阴",
+    "Fog": "雾",
+    "Drizzle": "毛毛雨",
+    "Freezing drizzle": "冻毛毛雨",
+    "Light rain": "小雨",
+    "Rain": "雨",
+    "Heavy rain": "大雨",
+    "Light snow": "小雪",
+    "Snow": "雪",
+    "Heavy snow": "大雪",
+    "Light snow showers": "小阵雪",
+    "Heavy snow showers": "强阵雪",
+    "Thunderstorm": "雷暴",
+    "Thunderstorm with hail": "雷暴伴冰雹"
+  },
+  "contexts": {
+    "toggle label": {
+      "Enabled": "启用"
+    },
+    "panel status": {
+      "Enabled": "已启用",
+      "Disabled": "已禁用"
+    },
+    "bar workspaces": {
+      "Shown": "显示数量",
+      "Active indicator": "活动指示器",
+      "Active trail": "活动轨迹",
+      "Occupied background": "占用背景",
+      "Show unoccupied": "显示未占用",
+      "Per monitor": "按显示器区分",
+      "Show windows": "显示窗口",
+      "Windows on special workspaces": "特殊工作区上的窗口",
+      "Max window icons": "最大窗口图标数"
+    },
+    "recording status": {
+      "PAUSED": "已暂停",
+      "REC": "REC"
+    },
+    "wifi security type": {
+      "Open": "开放",
+      "Unknown": "未知"
+    },
+    "unknown wifi security": {
+      "Unknown": "未知"
+    },
+    "weather condition": {
+      "Unknown": "未知"
+    },
+    "default app category": {
+      "Terminal": "终端",
+      "Audio": "音频",
+      "Media playback": "媒体播放",
+      "File manager": "文件管理器"
+    },
+    "app library": {
+      "Library": "应用库"
+    },
+    "lyrics backend": {
+      "Auto": "自动",
+      "Local": "本地"
+    },
+    "gpu type": {
+      "Auto": "自动",
+      "Generic": "通用",
+      "None": "无"
+    },
+    "default media player": {
+      "Auto": "自动"
+    },
+    "power profile": {
+      "Balanced": "平衡",
+      "Performance": "性能",
+      "Power saver": "节能",
+      "Unknown": "未知"
+    },
+    "system uptime": {
+      "up %1": "已运行 %1"
+    },
+    "apparent temperature": {
+      "Feels like": "体感温度"
+    },
+    "forecast column": {
+      "Today": "今天",
+      "Now": "现在"
+    },
+    "min/max temperature": {
+      "%1 / %2": "%1 / %2"
+    },
+    "selected file": {
+      "\"%1\" selected": "已选择 \"%1\""
+    },
+    "network connected with security": {
+      "Connected • %1": "已连接 • %1"
+    },
+    "notification count label, number shown separately": {
+      "notification": "条通知",
+      "notifications": "条通知"
+    },
+    "recording status ": {
+      "PAUSED": "已暂停"
+    }
+  },
+  "overrides": {
+    "modules/sidebar/NotifDock.qml": {},
+    "modules/nexus/pages/PanelsPage.qml": {
+      "Enabled": "已启用",
+      "Disabled": "已禁用"
+    },
+    "modules/nexus/pages/panels/DashboardPanel.qml": {
+      "Enabled": "启用",
+      "Dashboard": "仪表盘"
+    },
+    "modules/nexus/pages/panels/LauncherPanel.qml": {
+      "Enabled": "启用"
+    },
+    "modules/nexus/pages/panels/SidebarPanel.qml": {
+      "Enabled": "启用"
+    },
+    "modules/nexus/pages/panels/UtilitiesPanel.qml": {
+      "Enabled": "启用"
+    }
+  },
+  "file_hashes": {
+    "components/filedialog/CurrentItem.qml": "4865e66d600dcdfe70d91a56dbc625714c73b1d20d57e1ae3de009de5c7c256d",
+    "components/filedialog/DialogButtons.qml": "7eeb4e0565c2a5e0b8c77ae0a49b5f9b5bd4de5535610878da8545019c3b4efe",
+    "components/filedialog/FileDialog.qml": "9a2cf466bf50da3c0e21d7d4e22bae96de67ecf679191bd8c2fd8e0086cf0689",
+    "components/filedialog/FolderContents.qml": "a28f378a089b1ee7e977bbc5fc114fbeca6fa7afb22fba03747b981bd1dd462b",
+    "components/filedialog/Sidebar.qml": "e3671d38688107dba5c888fbdaf61cffb5aa73ec00b213a0053ccc50b00ed86b",
+    "modules/BatteryMonitor.qml": "b453eac2d132fe112d73fd2ba5bd3a760124e4486a93f97d29df924a74f1716d",
+    "modules/areapicker/Picker.qml": "59af6c9fc1b357a47c33e17665c71c11b0a44e8e137f4eeeb82e2d6b680bce17",
+    "modules/background/Wallpaper.qml": "8339a889dd31202cb909b2423845f7f8f9e5990ac8545fe6aa600375036cadea",
+    "modules/bar/components/ActiveWindow.qml": "141b9ccca379eb7cce6643e7175d4f7d1e55a3169601461330c3576ef11429d9",
+    "modules/bar/popouts/AudioPopout.qml": "7ea5e3158479af91f694ec134a053200ebbd4307f4e9364c37991dd251615990",
+    "modules/bar/popouts/Battery.qml": "7359e58ad66bf7bc8be737c4c563b350ab9c9120371bc8d981ef3bb0ec02a1a2",
+    "modules/bar/popouts/Bluetooth.qml": "7a227a67a38a45d186120dcaab642c7eb802dd0118f84bf2b2de3853c6436120",
+    "modules/bar/popouts/LockStatus.qml": "48b1c2af8b9604e56007e2be0c2e8d6caf97beba043f7dc67b89994b0c126dc8",
+    "modules/bar/popouts/Network.qml": "2cc9daffe541b8eb4c9c968d6102005c5f5ff4d295f11465f1e864cb4811420c",
+    "modules/bar/popouts/TrayMenu.qml": "e944a3940e03ad16d4bf8dd9b173a6b3ac51e0b9003e7cdd72ce6e11f32c0977",
+    "modules/bar/popouts/WirelessPassword.qml": "bab956a4939530753de0c341dfeee549dc9deae8c1d3122656a31825daa0facd",
+    "modules/bar/popouts/kblayout/KbLayout.qml": "34755e8783ac7b6aeb0e71435ad3f22afe3da6fe5994efededb8d807c80845aa",
+    "modules/bar/popouts/kblayout/KbLayoutModel.qml": "64c200fe4a34be1ddd81d22746154f70a7815faa144cc73bdc34496782a93e0d",
+    "modules/dashboard/Content.qml": "74a4a36b5b9edb7c0b706a55cafa50e66b356add2e7aee4538e4dec93147254d",
+    "modules/dashboard/Media.qml": "26b735e17e93b9f61043bc3ed4ba857fa9a4d0bd5ccca896b3d69604bfa039db",
+    "modules/dashboard/Performance.qml": "4d789916d390d05cda55ab5644d9fdc8f0391898584dc5b0bcbc983643601d47",
+    "modules/dashboard/WeatherTab.qml": "fb5c8a529ee462f99a3063f5cbde86d518de75ee8599d3e66c8d7b0b652da831",
+    "modules/dashboard/Wrapper.qml": "1d3d1bb6641c9baa223a821e7dbca68d7aebb363575e6691ae42d132f9753d0c",
+    "modules/dashboard/dash/Media.qml": "b526526a3a1e8fbd63c2213ab6a01a3a21f19f07c1afa91d4de017150513e74d",
+    "modules/dashboard/dash/User.qml": "1cc273afb374ee49235ca1ad16a3bde4046498878c0bae8e4be5e6e4d1bf88c7",
+    "modules/dashboard/media/Details.qml": "9c81d9b1952f055560cd14e71c4ee58d2e47308d77b3821a33d20886534cfbf4",
+    "modules/dashboard/media/LyricList.qml": "2274d3992d1eff15b32c9334abcc5f64090d0920719e191e8c1eea5642378b8e",
+    "modules/dashboard/media/LyricsAndSelector.qml": "8a7fad5274884daa7abf8c68216d0332f2f6cc8148d2ea74a47ad98975a607cb",
+    "modules/dashboard/media/LyricsInfo.qml": "b317a2e51edf77a4a4618b5898497814fc4c8595a33b6ed8c25a30b269762745",
+    "modules/dashboard/performance/BatteryTank.qml": "2f797414d678535ca4f46909be5a10dc0ee2d870601ae32aeb29342a1c536424",
+    "modules/dashboard/performance/HeroCard.qml": "81c3604b91a29242c0b2000b2a26ec03f88e9d20ab067a93119bf12717bc26a7",
+    "modules/dashboard/performance/MemoryCard.qml": "0d4d3dc7edf82eb1cb71270cc03faa1371ab3cb573ed986bd55436c4495ba13e",
+    "modules/dashboard/performance/NetworkCard.qml": "2d18f130e65204866a78d67d208deb589cc0de8d3f615ae1727be423a86d9d8a",
+    "modules/dashboard/performance/StorageCard.qml": "6a90355537de504a26ab880300c06d67e85c369addd669f7d0ec42e776ce1d18",
+    "modules/launcher/Content.qml": "d3a3f3eaf365c169781035bf2fb27533bb0e4ae6235f202bf92940a50aafaa70",
+    "modules/launcher/ContentList.qml": "a49736fd80f025274f00732473158f7a8a0709829e0f4726af5259d33c2310e4",
+    "modules/launcher/items/CalcItem.qml": "fb796488b4f1414e1fd38e585d90cb09f65993ee3118995709c2a0e045307295",
+    "modules/launcher/services/Actions.qml": "ee6cf7e9067eba0d4aeac8b412fffb50256c356487fdb6ea55972ef39b3dc1af",
+    "modules/launcher/services/M3Variants.qml": "9525ea54a4b83d080c72acab582f45c0ad6f97afbab1bc9e4c6ead9d668c75d6",
+    "modules/lock/Fetch.qml": "31c07542f66812ca4c9bc7e6781f812ab498b27ca8fb54ad5ffb865152b4bd41",
+    "modules/lock/Media.qml": "1b70a911e7c4d2542a4baf4dd695e6050a8ae7a3d4859f083fc56a03b7ef08f3",
+    "modules/lock/NotifDock.qml": "aba23d04cd34cd4572bbc76d7cb289e65df3e2a6a96c61d7615399de6af2d622",
+    "modules/lock/center/InputField.qml": "95bf76b4d140afcc63fa26214a223a6b4095cacb2b627eef15f92af5f3807c7a",
+    "modules/lock/center/StateMessage.qml": "4cf8948acfececb5d8f28f26b4331b0583f60f2e88f15d7ee246306f3281870e",
+    "modules/lock/weather/BriefInfo.qml": "43fa0225cc2085987f7a534ca53a24372d29ebf2ad881417503723b22008c409",
+    "modules/lock/weather/Forecast.qml": "3cce55bf490338754384813f7cddb850fffbfca12a5889b84d7e9fa9d42e7daf",
+    "modules/nexus/NavPane.qml": "f098b786866ed1974d8e248d3c5db217bfed450629039ce90ccce788a7904e4d",
+    "modules/nexus/PageCompRegistry.qml": "ce2d0c6a670f77e2e3ee32af7a13959731e9ae057f9b953446f7ecce5c54d431",
+    "modules/nexus/PageRegistry.qml": "460cd790c3c082f3455e33d952c93164ba364bcd23f5dcc3b1c3730bb79b8d11",
+    "modules/nexus/WindowFactory.qml": "f347eea4b31134beb644bf342d0babe7b9cbb01cf678d63299ae2eb0e99b5ac4",
+    "modules/nexus/common/AudioDeviceList.qml": "45353542ec8e382d7336e72a6c36658bf8e0726aee857b09fb894f49bef609fd",
+    "modules/nexus/common/DialogRowButton.qml": "727a5d35670f37748747840ded40e8cfa922f3afe698a7dc6aab4c2a0172b323",
+    "modules/nexus/common/EthernetSection.qml": "a56b6222eff30507861bd00bba1c196aec1a658b5a361d9c340c17dc5a196ebb",
+    "modules/nexus/common/NetworkList.qml": "57585f622595d32b6344aa4677d543f186a9755be6b92fd0a9ce97116a3ad715",
+    "modules/nexus/pages/AboutPage.qml": "14b413013349ce4faf2caba7f91225134138417dd53447027c50850e26d6252d",
+    "modules/nexus/pages/AppsPage.qml": "bb3a422b18029bb966b25bc51751a664209a2f2ce6ae7d2939247fd7e4865351",
+    "modules/nexus/pages/AudioPage.qml": "6d41c536db7117dbc9d931b0ac7a1f3e4a31f26ecbe83c89ea9051497b7a9b52",
+    "modules/nexus/pages/BluetoothPage.qml": "2e1c1e5d353a04fee008a1b049a9ff502d3bb90d0b4a254ca92b86ae6a57eb19",
+    "modules/nexus/pages/LanguageAndRegion.qml": "f9f1b19e1edfe05d576de5e6b45d71fee90e247a7bef3cc2c43eb2de35decdd6",
+    "modules/nexus/pages/NetworkPage.qml": "e79b266466733138f424230536858f460794d8f70ec9d1d5dca478a816af0370",
+    "modules/nexus/pages/PanelsPage.qml": "3f6c248dda9ef0fa22f29b70e7fd164ae47d3b536efbdec5310dcaf2576d8070",
+    "modules/nexus/pages/ServicesPage.qml": "44f095513785ef5906459fb6229ae204f1ac2aedd8eec017de82a908bb1bbfdc",
+    "modules/nexus/pages/WallpaperAndStyle.qml": "510906901f1f61657330f0e1e58f22e4ac087378c0a12d0f22078c0a34b7001e",
+    "modules/nexus/pages/apps/AllApps.qml": "ca29a70b04c83e6bd11ca37f10246e4ba998fd6f5f5e29079dc778af6347b92d",
+    "modules/nexus/pages/apps/AppInfo.qml": "a367b0c4f7df742117219ef9c33cd74e29a60f458550cb1315973823ae1f9349",
+    "modules/nexus/pages/audio/AppVolumes.qml": "beca823eac3ce0f55a19bd12be7df5fa269c355347a91d558f67e034359a3e66",
+    "modules/nexus/pages/bluetooth/BluetoothPairing.qml": "9ddf68f710cabdb4d021885c18b8053f9d590fbeaaaebf5db2bd783331aaea31",
+    "modules/nexus/pages/bluetooth/BtDeviceInfo.qml": "78c8fc39624cb93df6e2e99b42f66046ca0ee40d25baa519c706367726f45e58",
+    "modules/nexus/pages/network/AddNetworkPage.qml": "2205f9a93e561c50ba9f3cfd3e6df71980206d3a34f5fa8d087ba0f6d11748f5",
+    "modules/nexus/pages/network/AddVpnPage.qml": "24fea177cbe71088be7cbb6f16949f1ac0d4392f3a3fed3b59883851079d0750",
+    "modules/nexus/pages/network/AllNetworksPage.qml": "265c16eacf23e75fd8db8453352a6ecc1d36217e14ea77d328c649acbd8cdcf3",
+    "modules/nexus/pages/network/EthernetDetailPage.qml": "7460c111dc96c55ece848430c662e19acac2280c8abd395ed459124ce7a69ecc",
+    "modules/nexus/pages/network/NetworkDetailPage.qml": "c1a7b44f0574c7e24965723569d7d12fb00b0f7a269a2a321b1dd15719fb5087",
+    "modules/nexus/pages/network/SavedNetworksPage.qml": "e4f490fd163b0a335afa227685a117f66e8277d7aa266b540f480387f52bacaa",
+    "modules/nexus/pages/panels/DashboardPanel.qml": "cb13e75d8d532e568e4c71f16023e5348f3cb9d200bd23b6d2937b6e1bf22bef",
+    "modules/nexus/pages/panels/LauncherPanel.qml": "24dc1599c4d329bb942882379237a578839c6a61e9fe7ae0728ad416079e2e93",
+    "modules/nexus/pages/panels/SidebarPanel.qml": "58abf6fa0a6d2ed09730213664376c722f6394bc570f892e0898b03fd6b47cc6",
+    "modules/nexus/pages/panels/TaskbarPanel.qml": "019d3eb6b4b1addb7894d4aeb09490f9f5ae7622ee9608e923b454d63205bd5f",
+    "modules/nexus/pages/panels/UtilitiesPanel.qml": "1f13ab63f7c1be935ae5b22a83dff413dd36d6cd170fe079708917185b428907",
+    "modules/nexus/pages/panels/taskbar/BarActiveWindow.qml": "6c82b8ec5c34a215e514c287237d7f35b1df41159f8353cdad1865f896c7aec0",
+    "modules/nexus/pages/panels/taskbar/BarClock.qml": "5b59e888e839e04954efda4062e2035fd7e89332c27269ae97edb4700a6144bf",
+    "modules/nexus/pages/panels/taskbar/BarStatusIcons.qml": "81bdfa3a8b572854fd241135eda34f428fc0b36dbefb9ad5839fdb0d1ab52908",
+    "modules/nexus/pages/panels/taskbar/BarTray.qml": "1ec8e7b2b3f48f8c907ee26101c2e5fb70b765a6d6a1753132c075729bb24664",
+    "modules/nexus/pages/panels/taskbar/BarWorkspaces.qml": "b64b6873121b1959afc3f221083c4ef24d537f41227f2942f48be6a1f8b38bb2",
+    "modules/nexus/pages/services/NotificationsPage.qml": "9c7a44bb423d2e19d9200caa074230edc75e9d127f9f6aad20a984d4ca6a42e2",
+    "modules/nexus/pages/wallandstyle/ColourSelect.qml": "13ed125b028da85ab86e23d15222731b5e5c1b3fe701810aba7134620d91033f",
+    "modules/nexus/pages/wallandstyle/WallpaperSelect.qml": "892abc0f519d58b18b7c1b15da925278e06a78d0d664eafdfde685f32cefe36e",
+    "modules/sidebar/Notif.qml": "c986d1ca73004a068c1eb55400c9b33af2b167f5efb9c47ca73a6fba4e9e59ad",
+    "modules/sidebar/NotifDock.qml": "20cf80f5e08098e9013c945962964be0f23339b2366ab51fd9474dbc07a555fa",
+    "modules/utilities/RecordingDeleteModal.qml": "1f132a29b2edec60282244cd44c518371a5827d27dd4c34bd341e2a9c33d24fa",
+    "modules/utilities/cards/IdleInhibit.qml": "9c5b26774266e9414dfb4f060fca2b7e9b50be20a6f2568d791010a873196a8e",
+    "modules/utilities/cards/Record.qml": "3a579fadbb4c09be57b20cdd92d609ce6fa008f38efadf1729744b2f1ea9e071",
+    "modules/utilities/cards/RecordingList.qml": "57b8f303ee7a990973ba2bfb68627c73b444a20b7fb9dfd088b7071694351896",
+    "modules/utilities/cards/Toggles.qml": "e3ef2ec0c1d4241d0c67a9e6096b8f261efdf0dd73c385ed1728f1043386b9f9",
+    "modules/utilities/toasts/ToastItem.qml": "2a9d35b52e1e823e4283a83bc9d3d639f865409d4d5378c1cf270efdccf09666",
+    "modules/windowinfo/Buttons.qml": "e8cf997915bd587d3e6abf460ba6c25a9c66e6352f6405ffae1a1ff00fd893ed",
+    "modules/windowinfo/Details.qml": "ea000fdbafc61bab927d84372d240f02e40061be656c5db0f64bdb560238e409",
+    "modules/windowinfo/Preview.qml": "e1541adb79fda4db806de86733a725d2cf2bc1b64e8949fe361b262c0f5c951b",
+    "services/Audio.qml": "d45d8f0c572d8c5b26a1fd8a890e331444136edee10c5c7fa80dfd66f33af3ce",
+    "services/GameMode.qml": "c523d391fc5738757d464969e53dcda8c218595d2885abf44743c5393964eff1",
+    "services/Hypr.qml": "51589f5877342b1a35c78b45985a2cc54ff3fc5109fd3a4c484b63ac296ba92d",
+    "services/Nmcli.qml": "e7f2dd58d2237fa2fa5c9b8da7b560fc42c2cb5008d62e5a2fa998c9ccfd905c",
+    "services/NotifData.qml": "92f89f953417b34f3df93d7311206101ddc409530864863d6ce2b26af57063b7",
+    "services/Notifs.qml": "7a7d58b3cbec0b05d0eb5eaeae212e485bbe60dee6d3c71091148823c2264a10",
+    "services/Players.qml": "6f30a04d038d6e6a4e92f789f7bf6aea19792202dae06388f5967c412044844d",
+    "services/VPN.qml": "5f7cbc974471606546ce9787f1d42d89919cf7af87a4a956e7354d5dc3d4ad69",
+    "services/Weather.qml": "4f50153b2e52c264ad92aa0a309629db9cd531a7fb077d23f5a31215042471d1",
+    "utils/Strings.qml": "e95a20efc5aee569b163d57c9d5b02b8d3c5f266757ff4af7743d9f451942057",
+    "utils/SysInfo.qml": "19eea7b47f46abf2da55e3f7cc90cd8da54b135d518a650ec194cce27fcc51c5"
+  },
+  "file_keys": {
+    "components/filedialog/CurrentItem.qml": [
+      "\"%1\" selected"
+    ],
+    "components/filedialog/DialogButtons.qml": [
+      "Filter:",
+      ", ",
+      "%1 (%2)",
+      "Select",
+      "Cancel"
+    ],
+    "components/filedialog/FileDialog.qml": [
+      "All files",
+      "Select a file"
+    ],
+    "components/filedialog/FolderContents.qml": [
+      "This folder is empty"
+    ],
+    "components/filedialog/Sidebar.qml": [
+      "Files"
+    ],
+    "modules/BatteryMonitor.qml": [
+      "Battery warning",
+      "Battery level is low",
+      "Hibernating in 5 seconds",
+      "Hibernating to prevent data loss",
+      "Charger unplugged",
+      "Battery is discharging",
+      "Charger plugged in",
+      "Battery is charging"
+    ],
+    "modules/areapicker/Picker.qml": [
+      "Screenshot taken",
+      "Screenshot copied to clipboard"
+    ],
+    "modules/background/Wallpaper.qml": [
+      "Wallpaper missing?",
+      "Select a wallpaper",
+      "Image files",
+      "Set it now!"
+    ],
+    "modules/bar/components/ActiveWindow.qml": [
+      "Desktop"
+    ],
+    "modules/bar/popouts/AudioPopout.qml": [
+      "Output device",
+      "Input device",
+      "Volume (muted)",
+      "Volume (%1%)",
+      "Open settings"
+    ],
+    "modules/bar/popouts/Battery.qml": [
+      "%n day",
+      "%n days",
+      "%n hour",
+      "%n hours",
+      "%n min",
+      "%n mins",
+      ", ",
+      "Balanced",
+      "Performance",
+      "Power saver",
+      "Unknown",
+      "The device is too hot",
+      "The device is on a lap",
+      "Unknown reason",
+      "Remaining: %1%",
+      "No battery detected",
+      "Power profile: %1",
+      "Time remaining: %1",
+      "Calculating remaining battery life...",
+      "Time until charged: %1",
+      "Fully charged!",
+      "Calculating time until charged...",
+      "Performance degraded"
+    ],
+    "modules/bar/popouts/Bluetooth.qml": [
+      "Bluetooth",
+      "Enabled",
+      "Discovering",
+      "%n device available (%1 connected)",
+      "%n devices available (%1 connected)",
+      "%n device available",
+      "%n devices available",
+      "Open settings"
+    ],
+    "modules/bar/popouts/LockStatus.qml": [
+      "Caps lock enabled",
+      "Caps lock disabled",
+      "Num lock enabled",
+      "Num lock disabled"
+    ],
+    "modules/bar/popouts/Network.qml": [
+      "Wireless",
+      "Enabled",
+      "%n network available",
+      "%n networks available",
+      "Rescan networks",
+      "Ethernet",
+      "%n device available",
+      "%n devices available",
+      "Unknown"
+    ],
+    "modules/bar/popouts/TrayMenu.qml": [
+      "Back"
+    ],
+    "modules/bar/popouts/WirelessPassword.qml": [
+      "Connect",
+      "Enter password",
+      "Network: %1",
+      "Unknown network",
+      "Connection failed. Please check your password and try again.",
+      "Connecting...",
+      "Password",
+      "Cancel"
+    ],
+    "modules/bar/popouts/kblayout/KbLayout.qml": [
+      "Keyboard layouts",
+      "XKB limitation: maximum 4 layouts allowed"
+    ],
+    "modules/bar/popouts/kblayout/KbLayoutModel.qml": [
+      "%1 (%2)",
+      "Keyboard layout limit",
+      "XKB supports only 4 layouts at a time",
+      "%1 - %2"
+    ],
+    "modules/dashboard/Content.qml": [
+      "Dashboard",
+      "Media",
+      "Performance",
+      "Weather"
+    ],
+    "modules/dashboard/Media.qml": [
+      "Nothing playing",
+      "Play something for it to show up here!"
+    ],
+    "modules/dashboard/Performance.qml": [
+      "No widgets enabled",
+      "Enable widgets in the dashboard settings",
+      "CPU",
+      "GPU",
+      "Detecting GPU...",
+      "None"
+    ],
+    "modules/dashboard/WeatherTab.qml": [
+      "Loading...",
+      "Sunrise",
+      "Sunset",
+      "Humidity",
+      "Feels like",
+      "Wind",
+      "%1 km/h",
+      "7-day forecast",
+      "Today",
+      "%1 / %2"
+    ],
+    "modules/dashboard/Wrapper.qml": [
+      "Select a profile picture",
+      "Image files",
+      "Profile picture changed",
+      "Profile picture changed to %1",
+      "Unable to change profile picture",
+      "Failed to change profile picture to %1"
+    ],
+    "modules/dashboard/dash/Media.qml": [
+      "No media",
+      "Unknown title",
+      "Unknown album",
+      "Unknown artist"
+    ],
+    "modules/dashboard/dash/User.qml": [
+      "up %1"
+    ],
+    "modules/dashboard/media/Details.qml": [
+      "Unknown artist",
+      "Unknown album"
+    ],
+    "modules/dashboard/media/LyricList.qml": [
+      "Loading lyrics...",
+      "No lyrics found"
+    ],
+    "modules/dashboard/media/LyricsAndSelector.qml": [
+      "Lyrics",
+      "No players"
+    ],
+    "modules/dashboard/media/LyricsInfo.qml": [
+      "Backend: %1",
+      "Selected candidate: %1 | %2 | %3",
+      "Offset: %1 ms",
+      "Loading...",
+      "No lyrics found"
+    ],
+    "modules/dashboard/performance/BatteryTank.qml": [
+      "Battery",
+      "Full",
+      "Charging",
+      "%1h %2m",
+      "%1m"
+    ],
+    "modules/dashboard/performance/HeroCard.qml": [
+      "Usage"
+    ],
+    "modules/dashboard/performance/MemoryCard.qml": [
+      "Memory",
+      "Used"
+    ],
+    "modules/dashboard/performance/NetworkCard.qml": [
+      "Network",
+      "Collecting data...",
+      "Download",
+      "Upload",
+      "Total",
+      "↓%1 ↑%2"
+    ],
+    "modules/dashboard/performance/StorageCard.qml": [
+      "Used",
+      "Storage",
+      "No disks detected",
+      "No disks"
+    ],
+    "modules/launcher/Content.qml": [
+      "Type \"%1\" for commands"
+    ],
+    "modules/launcher/ContentList.qml": [
+      "No wallpapers found",
+      "No results",
+      "Try putting some wallpapers in %1",
+      "Try searching for something else"
+    ],
+    "modules/launcher/items/CalcItem.qml": [
+      "Calculating...",
+      "Type an expression to calculate",
+      "Open in calculator"
+    ],
+    "modules/launcher/services/Actions.qml": [
+      "Unnamed",
+      "No description"
+    ],
+    "modules/launcher/services/M3Variants.qml": [
+      "Vibrant",
+      "A high chroma palette. The primary palette's chroma is at maximum.",
+      "Tonal Spot",
+      "Default for Material theme colours. A pastel palette with a low chroma.",
+      "Expressive",
+      "A medium chroma palette. The primary palette's hue is different from the seed colour, for variety.",
+      "Fidelity",
+      "Matches the seed colour, even if the seed colour is very bright (high chroma).",
+      "Content",
+      "Almost identical to fidelity.",
+      "Fruit Salad",
+      "A playful theme - the seed colour's hue does not appear in the theme.",
+      "Rainbow",
+      "Neutral",
+      "Close to greyscale, a hint of chroma.",
+      "Monochrome",
+      "All colours are greyscale, no chroma."
+    ],
+    "modules/lock/Fetch.qml": [
+      "OS  : %1",
+      "WM  : %1",
+      "USER: %1",
+      "UP  : %1",
+      "BATT: (+) %1%",
+      "BATT: %1%"
+    ],
+    "modules/lock/Media.qml": [
+      "Nothing playing",
+      "Unknown track",
+      "Try playing some music!",
+      "Unknown artist"
+    ],
+    "modules/lock/NotifDock.qml": [
+      "%n notification",
+      "%n notifications",
+      "Notifications",
+      "Unlock for notifications",
+      "No notifications"
+    ],
+    "modules/lock/center/InputField.qml": [
+      "Loading...",
+      "Scanning face...",
+      "Max tries reached",
+      "Enter your password"
+    ],
+    "modules/lock/center/StateMessage.qml": [
+      "FP ERROR: %1",
+      "FACE ERROR: %1",
+      "PW ERROR: %1",
+      "Fingerprint not recognised (%1/%2). Please try again or use password.",
+      "Face not recognised (%1/%2). Please try again or use password.",
+      "Fingerprint not recognised (%1/%2). Please try again.",
+      "Face not recognised (%1/%2). Please try again.",
+      "Incorrect password. Please try again or use fingerprint.",
+      "Incorrect password. Please try again or use face.",
+      "Incorrect password. Please try again.",
+      "Maximum password attempts reached. Please use fingerprint.",
+      "Maximum password attempts reached. Please use face.",
+      "Maximum attempts for all authentication methods reached.",
+      "Maximum password attempts reached.",
+      "Maximum fingerprint attempts reached. Please use password.",
+      "Maximum face attempts reached. Please use password.",
+      "Caps lock and Num lock are ON.\nKeyboard layout: %1",
+      "Caps lock is ON. Keyboard layout: %1",
+      "Num lock is ON. Keyboard layout: %1",
+      "Keyboard layout: %1",
+      "Caps lock and Num lock are ON.",
+      "Caps lock is ON.",
+      "Num lock is ON."
+    ],
+    "modules/lock/weather/BriefInfo.qml": [
+      "Feels like %1",
+      "High %1 • Low %2"
+    ],
+    "modules/lock/weather/Forecast.qml": [
+      "Hourly forecast",
+      "Now"
+    ],
+    "modules/nexus/NavPane.qml": [
+      "Search settings"
+    ],
+    "modules/nexus/PageCompRegistry.qml": [
+      "Page under construction",
+      "This page will be available in a future update."
+    ],
+    "modules/nexus/PageRegistry.qml": [
+      "Wallpaper & style",
+      "Wallpaper, fonts, colours",
+      "Network",
+      "Wi-Fi, ethernet, VPN",
+      "Connected devices",
+      "Bluetooth, pairing",
+      "Audio",
+      "App volumes, sound devices",
+      "Updates",
+      "System updates",
+      "Plugins",
+      "Manage plugins",
+      "Panels",
+      "Dashboard, taskbar, launcher, sidebar",
+      "Apps",
+      "Default apps, favourites, hidden apps",
+      "Services",
+      "Poll intervals, lyrics backend",
+      "Language & region",
+      "UI language, weather location, display units",
+      "About",
+      "System information, credits"
+    ],
+    "modules/nexus/WindowFactory.qml": [
+      "Nexus — %1"
+    ],
+    "modules/nexus/common/AudioDeviceList.qml": [
+      "Unknown"
+    ],
+    "modules/nexus/common/DialogRowButton.qml": [
+      "Cancel"
+    ],
+    "modules/nexus/common/EthernetSection.qml": [
+      "Ethernet",
+      "Connected",
+      "Not connected",
+      "Data usage: %1",
+      "Wired connection",
+      "Not connected • %1",
+      "Local IP Address",
+      "Primary DNS"
+    ],
+    "modules/nexus/common/NetworkList.qml": [
+      "No networks found",
+      "Wi-Fi disabled",
+      "Connected",
+      "Saved",
+      "Security: %1 • %2",
+      "Security: %1"
+    ],
+    "modules/nexus/pages/AboutPage.qml": [
+      "About",
+      "System",
+      "Hostname",
+      "Device",
+      "Distro",
+      "Kernel",
+      "Firmware",
+      "Software",
+      "Shell",
+      "CLI",
+      "Plugins",
+      "Loaded plugins"
+    ],
+    "modules/nexus/pages/AppsPage.qml": [
+      "Apps",
+      "Default applications",
+      "Terminal",
+      "Audio",
+      "Media playback",
+      "File manager",
+      "Library",
+      "All apps",
+      "Browse installed apps, set favourites and hidden"
+    ],
+    "modules/nexus/pages/AudioPage.qml": [
+      "Audio",
+      "Output",
+      "Muted",
+      "No output devices",
+      "Input",
+      "No input devices",
+      "App volumes",
+      "No apps playing audio",
+      "%n app playing audio",
+      "%n apps playing audio"
+    ],
+    "modules/nexus/pages/BluetoothPage.qml": [
+      "Connected devices",
+      "Bluetooth",
+      "No saved devices",
+      "Bluetooth disabled",
+      "Unknown",
+      "Saved",
+      "Connected • %1",
+      "Connected",
+      "Pair new device",
+      "Discoverable",
+      "Allow nearby devices to find this one",
+      "Pairable",
+      "Allow nearby devices to pair with this one"
+    ],
+    "modules/nexus/pages/LanguageAndRegion.qml": [
+      "Auto",
+      "°C",
+      "°F",
+      "K",
+      "Binary (KiB, MiB)",
+      "Decimal (KB, MB)",
+      "12-hour",
+      "24-hour",
+      "Language & region",
+      "Language",
+      "UI language",
+      "The language used in the shell UI",
+      "Weather",
+      "Location picker coming soon",
+      "Choose your weather location on a map in a future update",
+      "Units",
+      "Temperature",
+      "Units for weather temperatures",
+      "System temperatures",
+      "Units for CPU and GPU temperatures",
+      "Data sizes",
+      "Units for data sizes and network speeds",
+      "Time & date",
+      "Clock format",
+      "How times are shown across the shell"
+    ],
+    "modules/nexus/pages/NetworkPage.qml": [
+      "Network",
+      "Wi-Fi",
+      "Show all networks (%1)",
+      "Saved networks",
+      "Add network",
+      "VPN",
+      "No VPN providers configured",
+      "Tap to select",
+      "Connecting...",
+      "Disconnecting...",
+      "Connected",
+      "Authentication required",
+      "An error occurred",
+      "Selected",
+      "Interface",
+      "Current ping",
+      "%1 ms",
+      "Add provider"
+    ],
+    "modules/nexus/pages/PanelsPage.qml": [
+      "Panels",
+      "Dashboard",
+      "Enabled",
+      "Disabled",
+      "Taskbar",
+      "Always visible",
+      "Reveal on hover",
+      "Reveal on drag",
+      "Launcher",
+      "Sidebar",
+      "Utilities"
+    ],
+    "modules/nexus/pages/ServicesPage.qml": [
+      "Auto",
+      "Local",
+      "Generic",
+      "None",
+      "Services",
+      "Notifications",
+      "Notifications, toasts, timeouts",
+      "Polling",
+      "Media refresh",
+      "How often the media position updates (ms)",
+      "System stats refresh",
+      "CPU, memory and GPU update interval (seconds)",
+      "Wi-Fi rescan",
+      "How often available networks are rescanned (seconds)",
+      "Media & lyrics",
+      "Lyrics backend",
+      "Source used to fetch synced lyrics",
+      "Default player",
+      "Preferred media player when several are open",
+      "Input increments",
+      "Volume step",
+      "Amount the volume changes per scroll (%)",
+      "Brightness step",
+      "Amount the brightness changes per scroll (%)",
+      "Max volume",
+      "Upper limit for output volume (%)",
+      "Service tuning",
+      "Visualiser bars",
+      "Number of bars in the audio visualisers",
+      "Smart colour scheme",
+      "Derive theme mode and variant from the wallpaper",
+      "GPU",
+      "Monitoring: %1",
+      "Override for GPU type"
+    ],
+    "modules/nexus/pages/WallpaperAndStyle.qml": [
+      "Wallpaper & style",
+      "Wallpaper disabled",
+      "Wallpapers",
+      "Colours",
+      "Display wallpaper",
+      "Transparency",
+      "Base %1, layers %2",
+      "Dark theme"
+    ],
+    "modules/nexus/pages/apps/AllApps.qml": [
+      "All apps"
+    ],
+    "modules/nexus/pages/apps/AppInfo.qml": [
+      "App info",
+      "Launcher",
+      "Favourite",
+      "Matched by a regex in favouriteApps — edit the config file to change",
+      "Pin to the top of the launcher",
+      "Hidden",
+      "Matched by a regex in hiddenApps — edit the config file to change",
+      "Hide from the launcher",
+      "Details",
+      "App ID",
+      "Command"
+    ],
+    "modules/nexus/pages/audio/AppVolumes.qml": [
+      "App volumes",
+      "Adjust the volume of individual apps currently playing audio.",
+      "No apps playing audio"
+    ],
+    "modules/nexus/pages/bluetooth/BluetoothPairing.qml": [
+      "Pair new device",
+      "Available devices",
+      "Searching for devices…",
+      "Unknown device",
+      "Pairing..."
+    ],
+    "modules/nexus/pages/bluetooth/BtDeviceInfo.qml": [
+      "Connected • %1",
+      "Connected",
+      "Paired",
+      "Not paired",
+      "Device",
+      "Forget",
+      "Disconnect",
+      "Connect",
+      "Trusted",
+      "Allow this device to connect automatically",
+      "Blocked",
+      "Prevent this device from connecting",
+      "Wake allowed",
+      "Allow this device to wake the system",
+      "Battery",
+      "Unavailable",
+      "Address"
+    ],
+    "modules/nexus/pages/network/AddNetworkPage.qml": [
+      "Add network",
+      "Enter the details below to manually connect to a network.",
+      "Network name (SSID)",
+      "e.g. MyHiddenNetwork",
+      "Network name is required",
+      "Hidden network",
+      "Actively probe for a network that doesn't broadcast its name",
+      "Security",
+      "WPA/WPA2/WPA3 Personal",
+      "None (open)",
+      "Password",
+      "WPA passwords are at least 8 characters",
+      "Connection failed — check the password",
+      "Password must be at least 8 characters",
+      "Cancel",
+      "Connect"
+    ],
+    "modules/nexus/pages/network/AddVpnPage.qml": [
+      "Edit VPN provider",
+      "Add VPN provider",
+      "Built-in names (wireguard, warp, tailscale, netbird) auto-fill their commands. For others, provide the connect/disconnect commands.",
+      "Provider name",
+      "Built-in id or a custom name",
+      "Provider name is required",
+      "Display name",
+      "Shown in the list",
+      "Interface",
+      "Network interface (for WireGuard / status checks)",
+      "Custom commands (optional)",
+      "Connect command",
+      "Leave empty to use the built-in default",
+      "Disconnect command",
+      "Delete",
+      "Cancel",
+      "Save",
+      "Add"
+    ],
+    "modules/nexus/pages/network/AllNetworksPage.qml": [
+      "All networks",
+      "Filters",
+      "Saved",
+      "Secured",
+      "5 GHz",
+      "2.4 GHz"
+    ],
+    "modules/nexus/pages/network/EthernetDetailPage.qml": [
+      "Ethernet",
+      "Disconnect",
+      "Connect",
+      "Connection",
+      "Status",
+      "Connected",
+      "Not connected",
+      "Interface",
+      "Speed",
+      "IP address",
+      "Gateway",
+      "MAC address",
+      "IPv4",
+      "IP assignment",
+      "Automatic (DHCP)",
+      "Automatic, DNS only",
+      "Manual",
+      "Address (CIDR)",
+      "IP and prefix, e.g. 192.168.1.50/24",
+      "Enter a valid address in CIDR notation",
+      "Enter a valid gateway address",
+      "DNS servers",
+      "Comma-separated",
+      "Enter valid DNS server addresses",
+      "Apply"
+    ],
+    "modules/nexus/pages/network/NetworkDetailPage.qml": [
+      "Network",
+      "Forget",
+      "Disconnect",
+      "Connection",
+      "Signal",
+      "Security",
+      "Open",
+      "Frequency",
+      "%1 MHz",
+      "IP address",
+      "Gateway",
+      "MAC address",
+      "Behaviour",
+      "Connect automatically",
+      "Join this network when it's in range",
+      "IPv4",
+      "IP assignment",
+      "Automatic (DHCP)",
+      "Automatic, DNS only",
+      "Manual",
+      "Address (CIDR)",
+      "IP and prefix, e.g. 192.168.1.50/24",
+      "Enter a valid address in CIDR notation",
+      "Enter a valid gateway address",
+      "DNS servers",
+      "Comma-separated",
+      "Enter valid DNS server addresses",
+      "Apply"
+    ],
+    "modules/nexus/pages/network/SavedNetworksPage.qml": [
+      "Saved networks",
+      "No saved networks",
+      "Open",
+      "Unknown",
+      "Connected • %1"
+    ],
+    "modules/nexus/pages/panels/DashboardPanel.qml": [
+      "Dashboard",
+      "General",
+      "Enabled",
+      "Show on hover",
+      "Reveal when the cursor reaches the screen edge",
+      "Show clock seconds",
+      "Display seconds for the clock in the main panel",
+      "Tabs",
+      "Media",
+      "Performance",
+      "Weather",
+      "Performance widgets",
+      "Battery",
+      "GPU",
+      "CPU",
+      "Memory",
+      "Storage",
+      "Network",
+      "Behaviour",
+      "Drag threshold",
+      "Pixels dragged before the dashboard opens"
+    ],
+    "modules/nexus/pages/panels/LauncherPanel.qml": [
+      "Launcher",
+      "General",
+      "Enabled",
+      "Show on hover",
+      "Reveal when the cursor reaches the screen edge",
+      "Action prefix",
+      "Prefix used to run actions in the launcher",
+      "Prefix must not be alphanumeric",
+      "Display",
+      "Max items shown",
+      "Max wallpapers",
+      "Drag threshold",
+      "Pixels dragged before the launcher opens",
+      "Behaviour",
+      "Vim keybinds",
+      "Navigate results with Ctrl+hjkl",
+      "Enable dangerous actions",
+      "Allow actions that shut down or log out",
+      "Fuzzy search",
+      "Apps",
+      "Actions",
+      "Schemes",
+      "Variants",
+      "Wallpapers"
+    ],
+    "modules/nexus/pages/panels/SidebarPanel.qml": [
+      "Sidebar",
+      "General",
+      "Enabled",
+      "Drag threshold",
+      "Pixels dragged before the sidebar opens"
+    ],
+    "modules/nexus/pages/panels/TaskbarPanel.qml": [
+      "Taskbar",
+      "Behaviour",
+      "Persistent",
+      "Keep the bar visible at all times",
+      "Show on hover",
+      "Reveal the bar when the cursor reaches the screen edge",
+      "Drag threshold",
+      "Pixels dragged before the bar reveals",
+      "Components",
+      "Workspaces",
+      "Indicators, window icons",
+      "Active window",
+      "Title display, popout",
+      "Tray",
+      "System tray icons",
+      "Status icons",
+      "Visible indicators",
+      "Clock",
+      "Date, icon, background",
+      "Scroll actions",
+      "Scroll over the workspace indicator to switch workspaces",
+      "Volume",
+      "Scroll on the top half of the bar to adjust volume",
+      "Brightness",
+      "Scroll on the bottom half of the bar to adjust brightness"
+    ],
+    "modules/nexus/pages/panels/UtilitiesPanel.qml": [
+      "Utilities",
+      "General",
+      "Enabled",
+      "Show the utilities panel",
+      "Cards",
+      "Keep awake",
+      "Show the idle inhibitor card",
+      "Screen recorder",
+      "Show the screen recorder card",
+      "Quick toggles",
+      "Show the quick toggles card",
+      "Wi-Fi",
+      "Toggle wireless networking",
+      "Bluetooth",
+      "Toggle the Bluetooth adapter",
+      "Microphone",
+      "Mute or unmute the default source",
+      "Settings",
+      "Open the settings window",
+      "Game mode",
+      "Toggle game mode",
+      "Do not disturb",
+      "Silence notifications",
+      "VPN",
+      "Connect or disconnect the VPN"
+    ],
+    "modules/nexus/pages/panels/taskbar/BarActiveWindow.qml": [
+      "Active window",
+      "Compact",
+      "Inverted",
+      "Show on hover",
+      "Only show the active window title while hovering",
+      "Popout on hover",
+      "Show a window details popout when hovering"
+    ],
+    "modules/nexus/pages/panels/taskbar/BarClock.qml": [
+      "Clock",
+      "Background",
+      "Show date",
+      "Show icon",
+      "Show seconds"
+    ],
+    "modules/nexus/pages/panels/taskbar/BarStatusIcons.qml": [
+      "Lock keys",
+      "Keyboard layout",
+      "Speakers",
+      "Microphone",
+      "Network",
+      "Bluetooth",
+      "Battery",
+      "Status icons",
+      "Visible icons",
+      "Add entry",
+      "Add new entry",
+      "Add",
+      "Behaviour",
+      "Popout on hover",
+      "Show a details popout when hovering the status icons"
+    ],
+    "modules/nexus/pages/panels/taskbar/BarTray.qml": [
+      "Tray",
+      "Background",
+      "Recolour icons",
+      "Compact",
+      "Popout on hover",
+      "Show the tray menu popout when hovering"
+    ],
+    "modules/nexus/pages/panels/taskbar/BarWorkspaces.qml": [
+      "Workspaces",
+      "Shown",
+      "Number of workspaces displayed",
+      "Active indicator",
+      "Active trail",
+      "Occupied background",
+      "Show unoccupied",
+      "Show workspaces that are inactive and empty",
+      "Per monitor",
+      "Hide workspaces not on the current monitor",
+      "Show windows",
+      "Show icons of open windows on each workspace",
+      "Windows on special workspaces",
+      "Max window icons"
+    ],
+    "modules/nexus/pages/services/NotificationsPage.qml": [
+      "On",
+      "Off",
+      "Important",
+      "Notifications",
+      "Show in fullscreen",
+      "Whether notifications appear over fullscreen apps",
+      "Expire automatically",
+      "Dismiss notifications after their timeout",
+      "Open expanded",
+      "Show notifications expanded by default",
+      "Default timeout",
+      "Time before a notification dismisses (ms)",
+      "Group preview count",
+      "Notifications shown per group before collapsing",
+      "Toasts",
+      "Whether toasts appear over fullscreen apps",
+      "Visible toasts",
+      "Maximum number of toasts shown at once",
+      "Toast events",
+      "Charging changes",
+      "Game mode changes",
+      "Do not disturb changes",
+      "Audio output changes",
+      "Audio input changes",
+      "Caps lock changes",
+      "Num lock changes",
+      "Keyboard layout changes",
+      "VPN changes",
+      "Now playing"
+    ],
+    "modules/nexus/pages/wallandstyle/ColourSelect.qml": [
+      "Colours",
+      "Page under construction",
+      "This page will be available in a future update."
+    ],
+    "modules/nexus/pages/wallandstyle/WallpaperSelect.qml": [
+      "Wallpapers",
+      "Browse",
+      "Select an image",
+      "Image files",
+      "Random",
+      "Featured wallpaper",
+      "Local wallpapers",
+      "No local wallpapers found"
+    ],
+    "modules/sidebar/Notif.qml": [
+      "No body here! :/"
+    ],
+    "modules/sidebar/NotifDock.qml": [
+      "notification",
+      "notifications",
+      "Notifications",
+      "All up to date!"
+    ],
+    "modules/utilities/RecordingDeleteModal.qml": [
+      "Delete recording?",
+      "Recording '%1' will be permanently deleted.",
+      "Cancel",
+      "Delete"
+    ],
+    "modules/utilities/cards/IdleInhibit.qml": [
+      "Keep awake",
+      "Preventing sleep mode",
+      "Normal power management",
+      "Active since %1"
+    ],
+    "modules/utilities/cards/Record.qml": [
+      "Screen recorder",
+      "Paused",
+      "Running...",
+      "Ready",
+      "Record fullscreen",
+      "Fullscreen",
+      "Record region",
+      "Region",
+      "Record fullscreen with sound",
+      "Record region with sound",
+      "PAUSED",
+      "REC",
+      "Recording for %1"
+    ],
+    "modules/utilities/cards/RecordingList.qml": [
+      "Recordings",
+      "Recording at %1",
+      "No recordings found"
+    ],
+    "modules/utilities/cards/Toggles.qml": [
+      "Quick toggles"
+    ],
+    "modules/utilities/toasts/ToastItem.qml": [],
+    "modules/windowinfo/Buttons.qml": [
+      "Move to workspace",
+      "Tile",
+      "Float",
+      "Unpin",
+      "Pin",
+      "Kill"
+    ],
+    "modules/windowinfo/Details.qml": [
+      "No active client",
+      "Address: %1",
+      "Address: unknown",
+      "Position: %1, %2",
+      "Size: %1 x %2",
+      "Workspace: %1 (%2)",
+      "Monitor: %1 (%2) at %3, %4",
+      "Monitor: unknown",
+      "Initial title: %1",
+      "Initial title: unknown",
+      "Initial class: %1",
+      "Initial class: unknown",
+      "Process id: %1",
+      "Floating: yes",
+      "Floating: no",
+      "Xwayland: yes",
+      "Xwayland: no",
+      "Pinned: yes",
+      "Pinned: no",
+      "Fullscreen state: off",
+      "Fullscreen state: maximised",
+      "Fullscreen state: on",
+      "Fullscreen state: unknown"
+    ],
+    "modules/windowinfo/Preview.qml": [
+      "No active client",
+      "Try switching to a window",
+      "%1 on monitor %2 at %3, %4"
+    ],
+    "services/Audio.qml": [
+      "Unknown",
+      "Unknown application",
+      "Unknown device",
+      "Audio output changed",
+      "Now using: %1",
+      "Audio input changed"
+    ],
+    "services/GameMode.qml": [
+      "Game mode enabled",
+      "Disabled Hyprland animations, blur, gaps and shadows",
+      "Game mode disabled",
+      "Hyprland settings restored"
+    ],
+    "services/Hypr.qml": [
+      "Unknown"
+    ],
+    "services/Nmcli.qml": [
+      "Open",
+      "Enterprise",
+      "Enhanced Open",
+      "%1 Gbps",
+      "%1 Mbps"
+    ],
+    "services/NotifData.qml": [
+      "now",
+      "%1d",
+      "%1h",
+      "%1m"
+    ],
+    "services/Notifs.qml": [
+      "Do not disturb enabled",
+      "Popup notifications are now disabled",
+      "Do not disturb disabled",
+      "Popup notifications are now enabled"
+    ],
+    "services/Players.qml": [
+      "Now playing",
+      "%1 - %2"
+    ],
+    "services/VPN.qml": [
+      "VPN connection failed",
+      "VPN disconnection failed",
+      "Login required",
+      "Machine authorisation required",
+      "Tailscale may not be running",
+      "Authentication required",
+      "Failed to parse status",
+      "WARP registration required",
+      "Unknown WARP status",
+      "VPN",
+      "VPN connected",
+      "Connected to %1",
+      "VPN disconnected",
+      "Disconnected from %1",
+      "VPN authentication required",
+      "%1: %2",
+      "Unknown error",
+      "VPN error",
+      "WireGuard module not loaded. Run: %1",
+      "Permission denied. Run in terminal: %1",
+      "Service not running (run: %1)",
+      "Could not start %1. Is it installed?",
+      "Could not connect to %1"
+    ],
+    "services/Weather.qml": [
+      "No weather",
+      "Unknown city",
+      "Clear",
+      "Partly cloudy",
+      "Overcast",
+      "Fog",
+      "Drizzle",
+      "Freezing drizzle",
+      "Light rain",
+      "Rain",
+      "Heavy rain",
+      "Light snow",
+      "Snow",
+      "Heavy snow",
+      "Light snow showers",
+      "Heavy snow showers",
+      "Thunderstorm",
+      "Thunderstorm with hail",
+      "Unknown"
+    ],
+    "utils/Strings.qml": [
+      "%1%"
+    ],
+    "utils/SysInfo.qml": [
+      ", ",
+      "%n day",
+      "%n days",
+      "%n hour",
+      "%n hours",
+      "%n minute",
+      "%n minutes"
+    ]
+  },
+  "file_sequence": {
+    "components/filedialog/CurrentItem.qml": [
+      [
+        "\"%1\" selected",
+        null
+      ]
+    ],
+    "components/filedialog/DialogButtons.qml": [
+      [
+        "Filter:",
+        null
+      ],
+      [
+        ", ",
+        null
+      ],
+      [
+        "%1 (%2)",
+        null
+      ],
+      [
+        "Select",
+        null
+      ],
+      [
+        "Cancel",
+        null
+      ]
+    ],
+    "components/filedialog/FileDialog.qml": [
+      [
+        "All files",
+        null
+      ],
+      [
+        "Select a file",
+        null
+      ]
+    ],
+    "components/filedialog/FolderContents.qml": [
+      [
+        "This folder is empty",
+        null
+      ]
+    ],
+    "components/filedialog/Sidebar.qml": [
+      [
+        "Files",
+        null
+      ]
+    ],
+    "modules/BatteryMonitor.qml": [
+      [
+        "Battery warning",
+        null
+      ],
+      [
+        "Battery level is low",
+        null
+      ],
+      [
+        "Hibernating in 5 seconds",
+        null
+      ],
+      [
+        "Hibernating to prevent data loss",
+        null
+      ],
+      [
+        "Charger unplugged",
+        null
+      ],
+      [
+        "Battery is discharging",
+        null
+      ],
+      [
+        "Charger plugged in",
+        null
+      ],
+      [
+        "Battery is charging",
+        null
+      ]
+    ],
+    "modules/areapicker/Picker.qml": [
+      [
+        "Screenshot taken",
+        null
+      ],
+      [
+        "Screenshot copied to clipboard",
+        null
+      ]
+    ],
+    "modules/background/Wallpaper.qml": [
+      [
+        "Wallpaper missing?",
+        null
+      ],
+      [
+        "Select a wallpaper",
+        null
+      ],
+      [
+        "Image files",
+        null
+      ],
+      [
+        "Set it now!",
+        null
+      ]
+    ],
+    "modules/bar/components/ActiveWindow.qml": [
+      [
+        "Desktop",
+        null
+      ]
+    ],
+    "modules/bar/popouts/AudioPopout.qml": [
+      [
+        "Output device",
+        null
+      ],
+      [
+        "Input device",
+        null
+      ],
+      [
+        "Volume (muted)",
+        null
+      ],
+      [
+        "Volume (%1%)",
+        null
+      ],
+      [
+        "Open settings",
+        null
+      ]
+    ],
+    "modules/bar/popouts/Battery.qml": [
+      [
+        "%n day",
+        "%n days"
+      ],
+      [
+        "%n hour",
+        "%n hours"
+      ],
+      [
+        "%n min",
+        "%n mins"
+      ],
+      [
+        ", ",
+        null
+      ],
+      [
+        "Balanced",
+        null
+      ],
+      [
+        "Performance",
+        null
+      ],
+      [
+        "Power saver",
+        null
+      ],
+      [
+        "Unknown",
+        null
+      ],
+      [
+        "The device is too hot",
+        null
+      ],
+      [
+        "The device is on a lap",
+        null
+      ],
+      [
+        "Unknown reason",
+        null
+      ],
+      [
+        "Remaining: %1%",
+        null
+      ],
+      [
+        "No battery detected",
+        null
+      ],
+      [
+        "Power profile: %1",
+        null
+      ],
+      [
+        "Time remaining: %1",
+        null
+      ],
+      [
+        "Calculating remaining battery life...",
+        null
+      ],
+      [
+        "Time until charged: %1",
+        null
+      ],
+      [
+        "Fully charged!",
+        null
+      ],
+      [
+        "Calculating time until charged...",
+        null
+      ],
+      [
+        "Performance degraded",
+        null
+      ]
+    ],
+    "modules/bar/popouts/Bluetooth.qml": [
+      [
+        "Bluetooth",
+        null
+      ],
+      [
+        "Enabled",
+        null
+      ],
+      [
+        "Discovering",
+        null
+      ],
+      [
+        "%n device available (%1 connected)",
+        "%n devices available (%1 connected)"
+      ],
+      [
+        "%n device available",
+        "%n devices available"
+      ],
+      [
+        "Open settings",
+        null
+      ]
+    ],
+    "modules/bar/popouts/LockStatus.qml": [
+      [
+        "Caps lock enabled",
+        null
+      ],
+      [
+        "Caps lock disabled",
+        null
+      ],
+      [
+        "Num lock enabled",
+        null
+      ],
+      [
+        "Num lock disabled",
+        null
+      ]
+    ],
+    "modules/bar/popouts/Network.qml": [
+      [
+        "Wireless",
+        null
+      ],
+      [
+        "Enabled",
+        null
+      ],
+      [
+        "%n network available",
+        "%n networks available"
+      ],
+      [
+        "Rescan networks",
+        null
+      ],
+      [
+        "Ethernet",
+        null
+      ],
+      [
+        "%n device available",
+        "%n devices available"
+      ],
+      [
+        "Unknown",
+        null
+      ]
+    ],
+    "modules/bar/popouts/TrayMenu.qml": [
+      [
+        "Back",
+        null
+      ]
+    ],
+    "modules/bar/popouts/WirelessPassword.qml": [
+      [
+        "Connect",
+        null
+      ],
+      [
+        "Connect",
+        null
+      ],
+      [
+        "Enter password",
+        null
+      ],
+      [
+        "Network: %1",
+        null
+      ],
+      [
+        "Unknown network",
+        null
+      ],
+      [
+        "Connection failed. Please check your password and try again.",
+        null
+      ],
+      [
+        "Connecting...",
+        null
+      ],
+      [
+        "Password",
+        null
+      ],
+      [
+        "Cancel",
+        null
+      ],
+      [
+        "Connect",
+        null
+      ],
+      [
+        "Connecting...",
+        null
+      ],
+      [
+        "Connect",
+        null
+      ],
+      [
+        "Connect",
+        null
+      ],
+      [
+        "Connect",
+        null
+      ],
+      [
+        "Connect",
+        null
+      ]
+    ],
+    "modules/bar/popouts/kblayout/KbLayout.qml": [
+      [
+        "Keyboard layouts",
+        null
+      ],
+      [
+        "XKB limitation: maximum 4 layouts allowed",
+        null
+      ]
+    ],
+    "modules/bar/popouts/kblayout/KbLayoutModel.qml": [
+      [
+        "%1 (%2)",
+        null
+      ],
+      [
+        "Keyboard layout limit",
+        null
+      ],
+      [
+        "XKB supports only 4 layouts at a time",
+        null
+      ],
+      [
+        "%1 - %2",
+        null
+      ],
+      [
+        "%1 - %2",
+        null
+      ]
+    ],
+    "modules/dashboard/Content.qml": [
+      [
+        "Dashboard",
+        null
+      ],
+      [
+        "Media",
+        null
+      ],
+      [
+        "Performance",
+        null
+      ],
+      [
+        "Weather",
+        null
+      ]
+    ],
+    "modules/dashboard/Media.qml": [
+      [
+        "Nothing playing",
+        null
+      ],
+      [
+        "Play something for it to show up here!",
+        null
+      ]
+    ],
+    "modules/dashboard/Performance.qml": [
+      [
+        "No widgets enabled",
+        null
+      ],
+      [
+        "Enable widgets in the dashboard settings",
+        null
+      ],
+      [
+        "CPU",
+        null
+      ],
+      [
+        "GPU",
+        null
+      ],
+      [
+        "Detecting GPU...",
+        null
+      ],
+      [
+        "None",
+        null
+      ]
+    ],
+    "modules/dashboard/WeatherTab.qml": [
+      [
+        "Loading...",
+        null
+      ],
+      [
+        "Sunrise",
+        null
+      ],
+      [
+        "Sunset",
+        null
+      ],
+      [
+        "Humidity",
+        null
+      ],
+      [
+        "Feels like",
+        null
+      ],
+      [
+        "Wind",
+        null
+      ],
+      [
+        "%1 km/h",
+        null
+      ],
+      [
+        "7-day forecast",
+        null
+      ],
+      [
+        "Today",
+        null
+      ],
+      [
+        "%1 / %2",
+        null
+      ]
+    ],
+    "modules/dashboard/Wrapper.qml": [
+      [
+        "Select a profile picture",
+        null
+      ],
+      [
+        "Image files",
+        null
+      ],
+      [
+        "Profile picture changed",
+        null
+      ],
+      [
+        "Profile picture changed to %1",
+        null
+      ],
+      [
+        "Unable to change profile picture",
+        null
+      ],
+      [
+        "Failed to change profile picture to %1",
+        null
+      ]
+    ],
+    "modules/dashboard/dash/Media.qml": [
+      [
+        "No media",
+        null
+      ],
+      [
+        "Unknown title",
+        null
+      ],
+      [
+        "No media",
+        null
+      ],
+      [
+        "Unknown album",
+        null
+      ],
+      [
+        "No media",
+        null
+      ],
+      [
+        "Unknown artist",
+        null
+      ]
+    ],
+    "modules/dashboard/dash/User.qml": [
+      [
+        "up %1",
+        null
+      ]
+    ],
+    "modules/dashboard/media/Details.qml": [
+      [
+        "Unknown artist",
+        null
+      ],
+      [
+        "Unknown album",
+        null
+      ]
+    ],
+    "modules/dashboard/media/LyricList.qml": [
+      [
+        "Loading lyrics...",
+        null
+      ],
+      [
+        "No lyrics found",
+        null
+      ]
+    ],
+    "modules/dashboard/media/LyricsAndSelector.qml": [
+      [
+        "Lyrics",
+        null
+      ],
+      [
+        "No players",
+        null
+      ]
+    ],
+    "modules/dashboard/media/LyricsInfo.qml": [
+      [
+        "Backend: %1",
+        null
+      ],
+      [
+        "Selected candidate: %1 | %2 | %3",
+        null
+      ],
+      [
+        "Offset: %1 ms",
+        null
+      ],
+      [
+        "Loading...",
+        null
+      ],
+      [
+        "No lyrics found",
+        null
+      ]
+    ],
+    "modules/dashboard/performance/BatteryTank.qml": [
+      [
+        "Battery",
+        null
+      ],
+      [
+        "Full",
+        null
+      ],
+      [
+        "Charging",
+        null
+      ],
+      [
+        "%1h %2m",
+        null
+      ],
+      [
+        "%1m",
+        null
+      ]
+    ],
+    "modules/dashboard/performance/HeroCard.qml": [
+      [
+        "Usage",
+        null
+      ]
+    ],
+    "modules/dashboard/performance/MemoryCard.qml": [
+      [
+        "Memory",
+        null
+      ],
+      [
+        "Used",
+        null
+      ]
+    ],
+    "modules/dashboard/performance/NetworkCard.qml": [
+      [
+        "Network",
+        null
+      ],
+      [
+        "Collecting data...",
+        null
+      ],
+      [
+        "Download",
+        null
+      ],
+      [
+        "Upload",
+        null
+      ],
+      [
+        "Total",
+        null
+      ],
+      [
+        "↓%1 ↑%2",
+        null
+      ]
+    ],
+    "modules/dashboard/performance/StorageCard.qml": [
+      [
+        "Used",
+        null
+      ],
+      [
+        "Storage",
+        null
+      ],
+      [
+        "No disks detected",
+        null
+      ],
+      [
+        "No disks",
+        null
+      ]
+    ],
+    "modules/launcher/Content.qml": [
+      [
+        "Type \"%1\" for commands",
+        null
+      ]
+    ],
+    "modules/launcher/ContentList.qml": [
+      [
+        "No wallpapers found",
+        null
+      ],
+      [
+        "No results",
+        null
+      ],
+      [
+        "Try putting some wallpapers in %1",
+        null
+      ],
+      [
+        "Try searching for something else",
+        null
+      ]
+    ],
+    "modules/launcher/items/CalcItem.qml": [
+      [
+        "Calculating...",
+        null
+      ],
+      [
+        "Type an expression to calculate",
+        null
+      ],
+      [
+        "Open in calculator",
+        null
+      ]
+    ],
+    "modules/launcher/services/Actions.qml": [
+      [
+        "Unnamed",
+        null
+      ],
+      [
+        "No description",
+        null
+      ]
+    ],
+    "modules/launcher/services/M3Variants.qml": [
+      [
+        "Vibrant",
+        null
+      ],
+      [
+        "A high chroma palette. The primary palette's chroma is at maximum.",
+        null
+      ],
+      [
+        "Tonal Spot",
+        null
+      ],
+      [
+        "Default for Material theme colours. A pastel palette with a low chroma.",
+        null
+      ],
+      [
+        "Expressive",
+        null
+      ],
+      [
+        "A medium chroma palette. The primary palette's hue is different from the seed colour, for variety.",
+        null
+      ],
+      [
+        "Fidelity",
+        null
+      ],
+      [
+        "Matches the seed colour, even if the seed colour is very bright (high chroma).",
+        null
+      ],
+      [
+        "Content",
+        null
+      ],
+      [
+        "Almost identical to fidelity.",
+        null
+      ],
+      [
+        "Fruit Salad",
+        null
+      ],
+      [
+        "A playful theme - the seed colour's hue does not appear in the theme.",
+        null
+      ],
+      [
+        "Rainbow",
+        null
+      ],
+      [
+        "A playful theme - the seed colour's hue does not appear in the theme.",
+        null
+      ],
+      [
+        "Neutral",
+        null
+      ],
+      [
+        "Close to greyscale, a hint of chroma.",
+        null
+      ],
+      [
+        "Monochrome",
+        null
+      ],
+      [
+        "All colours are greyscale, no chroma.",
+        null
+      ]
+    ],
+    "modules/lock/Fetch.qml": [
+      [
+        "OS  : %1",
+        null
+      ],
+      [
+        "WM  : %1",
+        null
+      ],
+      [
+        "USER: %1",
+        null
+      ],
+      [
+        "UP  : %1",
+        null
+      ],
+      [
+        "BATT: (+) %1%",
+        null
+      ],
+      [
+        "BATT: %1%",
+        null
+      ]
+    ],
+    "modules/lock/Media.qml": [
+      [
+        "Nothing playing",
+        null
+      ],
+      [
+        "Unknown track",
+        null
+      ],
+      [
+        "Try playing some music!",
+        null
+      ],
+      [
+        "Unknown artist",
+        null
+      ]
+    ],
+    "modules/lock/NotifDock.qml": [
+      [
+        "%n notification",
+        "%n notifications"
+      ],
+      [
+        "Notifications",
+        null
+      ],
+      [
+        "Unlock for notifications",
+        null
+      ],
+      [
+        "No notifications",
+        null
+      ]
+    ],
+    "modules/lock/center/InputField.qml": [
+      [
+        "Loading...",
+        null
+      ],
+      [
+        "Scanning face...",
+        null
+      ],
+      [
+        "Max tries reached",
+        null
+      ],
+      [
+        "Enter your password",
+        null
+      ]
+    ],
+    "modules/lock/center/StateMessage.qml": [
+      [
+        "FP ERROR: %1",
+        null
+      ],
+      [
+        "FACE ERROR: %1",
+        null
+      ],
+      [
+        "PW ERROR: %1",
+        null
+      ],
+      [
+        "Fingerprint not recognised (%1/%2). Please try again or use password.",
+        null
+      ],
+      [
+        "Face not recognised (%1/%2). Please try again or use password.",
+        null
+      ],
+      [
+        "Fingerprint not recognised (%1/%2). Please try again.",
+        null
+      ],
+      [
+        "Face not recognised (%1/%2). Please try again.",
+        null
+      ],
+      [
+        "Incorrect password. Please try again or use fingerprint.",
+        null
+      ],
+      [
+        "Incorrect password. Please try again or use face.",
+        null
+      ],
+      [
+        "Incorrect password. Please try again.",
+        null
+      ],
+      [
+        "Maximum password attempts reached. Please use fingerprint.",
+        null
+      ],
+      [
+        "Maximum password attempts reached. Please use face.",
+        null
+      ],
+      [
+        "Maximum attempts for all authentication methods reached.",
+        null
+      ],
+      [
+        "Maximum password attempts reached.",
+        null
+      ],
+      [
+        "Maximum fingerprint attempts reached. Please use password.",
+        null
+      ],
+      [
+        "Maximum face attempts reached. Please use password.",
+        null
+      ],
+      [
+        "Caps lock and Num lock are ON.\nKeyboard layout: %1",
+        null
+      ],
+      [
+        "Caps lock is ON. Keyboard layout: %1",
+        null
+      ],
+      [
+        "Num lock is ON. Keyboard layout: %1",
+        null
+      ],
+      [
+        "Keyboard layout: %1",
+        null
+      ],
+      [
+        "Caps lock and Num lock are ON.",
+        null
+      ],
+      [
+        "Caps lock is ON.",
+        null
+      ],
+      [
+        "Num lock is ON.",
+        null
+      ]
+    ],
+    "modules/lock/weather/BriefInfo.qml": [
+      [
+        "Feels like %1",
+        null
+      ],
+      [
+        "High %1 • Low %2",
+        null
+      ]
+    ],
+    "modules/lock/weather/Forecast.qml": [
+      [
+        "Hourly forecast",
+        null
+      ],
+      [
+        "Now",
+        null
+      ]
+    ],
+    "modules/nexus/NavPane.qml": [
+      [
+        "Search settings",
+        null
+      ]
+    ],
+    "modules/nexus/PageCompRegistry.qml": [
+      [
+        "Page under construction",
+        null
+      ],
+      [
+        "This page will be available in a future update.",
+        null
+      ]
+    ],
+    "modules/nexus/PageRegistry.qml": [
+      [
+        "Wallpaper & style",
+        null
+      ],
+      [
+        "Wallpaper, fonts, colours",
+        null
+      ],
+      [
+        "Network",
+        null
+      ],
+      [
+        "Wi-Fi, ethernet, VPN",
+        null
+      ],
+      [
+        "Connected devices",
+        null
+      ],
+      [
+        "Bluetooth, pairing",
+        null
+      ],
+      [
+        "Audio",
+        null
+      ],
+      [
+        "App volumes, sound devices",
+        null
+      ],
+      [
+        "Updates",
+        null
+      ],
+      [
+        "System updates",
+        null
+      ],
+      [
+        "Plugins",
+        null
+      ],
+      [
+        "Manage plugins",
+        null
+      ],
+      [
+        "Panels",
+        null
+      ],
+      [
+        "Dashboard, taskbar, launcher, sidebar",
+        null
+      ],
+      [
+        "Apps",
+        null
+      ],
+      [
+        "Default apps, favourites, hidden apps",
+        null
+      ],
+      [
+        "Services",
+        null
+      ],
+      [
+        "Poll intervals, lyrics backend",
+        null
+      ],
+      [
+        "Language & region",
+        null
+      ],
+      [
+        "UI language, weather location, display units",
+        null
+      ],
+      [
+        "About",
+        null
+      ],
+      [
+        "System information, credits",
+        null
+      ]
+    ],
+    "modules/nexus/WindowFactory.qml": [
+      [
+        "Nexus — %1",
+        null
+      ]
+    ],
+    "modules/nexus/common/AudioDeviceList.qml": [
+      [
+        "Unknown",
+        null
+      ]
+    ],
+    "modules/nexus/common/DialogRowButton.qml": [
+      [
+        "Cancel",
+        null
+      ]
+    ],
+    "modules/nexus/common/EthernetSection.qml": [
+      [
+        "Ethernet",
+        null
+      ],
+      [
+        "Connected",
+        null
+      ],
+      [
+        "Not connected",
+        null
+      ],
+      [
+        "Data usage: %1",
+        null
+      ],
+      [
+        "Wired connection",
+        null
+      ],
+      [
+        "Not connected • %1",
+        null
+      ],
+      [
+        "Local IP Address",
+        null
+      ],
+      [
+        "Primary DNS",
+        null
+      ]
+    ],
+    "modules/nexus/common/NetworkList.qml": [
+      [
+        "No networks found",
+        null
+      ],
+      [
+        "Wi-Fi disabled",
+        null
+      ],
+      [
+        "Connected",
+        null
+      ],
+      [
+        "Saved",
+        null
+      ],
+      [
+        "Security: %1 • %2",
+        null
+      ],
+      [
+        "Security: %1",
+        null
+      ]
+    ],
+    "modules/nexus/pages/AboutPage.qml": [
+      [
+        "About",
+        null
+      ],
+      [
+        "System",
+        null
+      ],
+      [
+        "Hostname",
+        null
+      ],
+      [
+        "Device",
+        null
+      ],
+      [
+        "Distro",
+        null
+      ],
+      [
+        "Kernel",
+        null
+      ],
+      [
+        "Firmware",
+        null
+      ],
+      [
+        "Software",
+        null
+      ],
+      [
+        "Shell",
+        null
+      ],
+      [
+        "CLI",
+        null
+      ],
+      [
+        "Plugins",
+        null
+      ],
+      [
+        "Loaded plugins",
+        null
+      ]
+    ],
+    "modules/nexus/pages/AppsPage.qml": [
+      [
+        "Apps",
+        null
+      ],
+      [
+        "Default applications",
+        null
+      ],
+      [
+        "Terminal",
+        null
+      ],
+      [
+        "Audio",
+        null
+      ],
+      [
+        "Media playback",
+        null
+      ],
+      [
+        "File manager",
+        null
+      ],
+      [
+        "Library",
+        null
+      ],
+      [
+        "All apps",
+        null
+      ],
+      [
+        "Browse installed apps, set favourites and hidden",
+        null
+      ]
+    ],
+    "modules/nexus/pages/AudioPage.qml": [
+      [
+        "Audio",
+        null
+      ],
+      [
+        "Output",
+        null
+      ],
+      [
+        "Muted",
+        null
+      ],
+      [
+        "No output devices",
+        null
+      ],
+      [
+        "Input",
+        null
+      ],
+      [
+        "Muted",
+        null
+      ],
+      [
+        "No input devices",
+        null
+      ],
+      [
+        "App volumes",
+        null
+      ],
+      [
+        "No apps playing audio",
+        null
+      ],
+      [
+        "%n app playing audio",
+        "%n apps playing audio"
+      ]
+    ],
+    "modules/nexus/pages/BluetoothPage.qml": [
+      [
+        "Connected devices",
+        null
+      ],
+      [
+        "Bluetooth",
+        null
+      ],
+      [
+        "No saved devices",
+        null
+      ],
+      [
+        "Bluetooth disabled",
+        null
+      ],
+      [
+        "Unknown",
+        null
+      ],
+      [
+        "Saved",
+        null
+      ],
+      [
+        "Connected • %1",
+        null
+      ],
+      [
+        "Connected",
+        null
+      ],
+      [
+        "Pair new device",
+        null
+      ],
+      [
+        "Discoverable",
+        null
+      ],
+      [
+        "Allow nearby devices to find this one",
+        null
+      ],
+      [
+        "Pairable",
+        null
+      ],
+      [
+        "Allow nearby devices to pair with this one",
+        null
+      ]
+    ],
+    "modules/nexus/pages/LanguageAndRegion.qml": [
+      [
+        "Auto",
+        null
+      ],
+      [
+        "°C",
+        null
+      ],
+      [
+        "°F",
+        null
+      ],
+      [
+        "K",
+        null
+      ],
+      [
+        "Binary (KiB, MiB)",
+        null
+      ],
+      [
+        "Decimal (KB, MB)",
+        null
+      ],
+      [
+        "Auto",
+        null
+      ],
+      [
+        "12-hour",
+        null
+      ],
+      [
+        "24-hour",
+        null
+      ],
+      [
+        "Language & region",
+        null
+      ],
+      [
+        "Language",
+        null
+      ],
+      [
+        "UI language",
+        null
+      ],
+      [
+        "The language used in the shell UI",
+        null
+      ],
+      [
+        "Auto",
+        null
+      ],
+      [
+        "Weather",
+        null
+      ],
+      [
+        "Location picker coming soon",
+        null
+      ],
+      [
+        "Choose your weather location on a map in a future update",
+        null
+      ],
+      [
+        "Units",
+        null
+      ],
+      [
+        "Temperature",
+        null
+      ],
+      [
+        "Units for weather temperatures",
+        null
+      ],
+      [
+        "System temperatures",
+        null
+      ],
+      [
+        "Units for CPU and GPU temperatures",
+        null
+      ],
+      [
+        "Data sizes",
+        null
+      ],
+      [
+        "Units for data sizes and network speeds",
+        null
+      ],
+      [
+        "Time & date",
+        null
+      ],
+      [
+        "Clock format",
+        null
+      ],
+      [
+        "How times are shown across the shell",
+        null
+      ]
+    ],
+    "modules/nexus/pages/NetworkPage.qml": [
+      [
+        "Network",
+        null
+      ],
+      [
+        "Wi-Fi",
+        null
+      ],
+      [
+        "Show all networks (%1)",
+        null
+      ],
+      [
+        "Saved networks",
+        null
+      ],
+      [
+        "Add network",
+        null
+      ],
+      [
+        "VPN",
+        null
+      ],
+      [
+        "No VPN providers configured",
+        null
+      ],
+      [
+        "Tap to select",
+        null
+      ],
+      [
+        "Connecting...",
+        null
+      ],
+      [
+        "Disconnecting...",
+        null
+      ],
+      [
+        "Connected",
+        null
+      ],
+      [
+        "Authentication required",
+        null
+      ],
+      [
+        "An error occurred",
+        null
+      ],
+      [
+        "Selected",
+        null
+      ],
+      [
+        "Interface",
+        null
+      ],
+      [
+        "Current ping",
+        null
+      ],
+      [
+        "%1 ms",
+        null
+      ],
+      [
+        "Add provider",
+        null
+      ]
+    ],
+    "modules/nexus/pages/PanelsPage.qml": [
+      [
+        "Panels",
+        null
+      ],
+      [
+        "Dashboard",
+        null
+      ],
+      [
+        "Enabled",
+        null
+      ],
+      [
+        "Disabled",
+        null
+      ],
+      [
+        "Taskbar",
+        null
+      ],
+      [
+        "Always visible",
+        null
+      ],
+      [
+        "Reveal on hover",
+        null
+      ],
+      [
+        "Reveal on drag",
+        null
+      ],
+      [
+        "Launcher",
+        null
+      ],
+      [
+        "Enabled",
+        null
+      ],
+      [
+        "Disabled",
+        null
+      ],
+      [
+        "Sidebar",
+        null
+      ],
+      [
+        "Enabled",
+        null
+      ],
+      [
+        "Disabled",
+        null
+      ],
+      [
+        "Utilities",
+        null
+      ],
+      [
+        "Enabled",
+        null
+      ],
+      [
+        "Disabled",
+        null
+      ]
+    ],
+    "modules/nexus/pages/ServicesPage.qml": [
+      [
+        "Auto",
+        null
+      ],
+      [
+        "Local",
+        null
+      ],
+      [
+        "Auto",
+        null
+      ],
+      [
+        "Generic",
+        null
+      ],
+      [
+        "None",
+        null
+      ],
+      [
+        "Services",
+        null
+      ],
+      [
+        "Notifications",
+        null
+      ],
+      [
+        "Notifications",
+        null
+      ],
+      [
+        "Notifications, toasts, timeouts",
+        null
+      ],
+      [
+        "Polling",
+        null
+      ],
+      [
+        "Media refresh",
+        null
+      ],
+      [
+        "How often the media position updates (ms)",
+        null
+      ],
+      [
+        "System stats refresh",
+        null
+      ],
+      [
+        "CPU, memory and GPU update interval (seconds)",
+        null
+      ],
+      [
+        "Wi-Fi rescan",
+        null
+      ],
+      [
+        "How often available networks are rescanned (seconds)",
+        null
+      ],
+      [
+        "Media & lyrics",
+        null
+      ],
+      [
+        "Lyrics backend",
+        null
+      ],
+      [
+        "Source used to fetch synced lyrics",
+        null
+      ],
+      [
+        "Default player",
+        null
+      ],
+      [
+        "Preferred media player when several are open",
+        null
+      ],
+      [
+        "Auto",
+        null
+      ],
+      [
+        "Input increments",
+        null
+      ],
+      [
+        "Volume step",
+        null
+      ],
+      [
+        "Amount the volume changes per scroll (%)",
+        null
+      ],
+      [
+        "Brightness step",
+        null
+      ],
+      [
+        "Amount the brightness changes per scroll (%)",
+        null
+      ],
+      [
+        "Max volume",
+        null
+      ],
+      [
+        "Upper limit for output volume (%)",
+        null
+      ],
+      [
+        "Service tuning",
+        null
+      ],
+      [
+        "Visualiser bars",
+        null
+      ],
+      [
+        "Number of bars in the audio visualisers",
+        null
+      ],
+      [
+        "Smart colour scheme",
+        null
+      ],
+      [
+        "Derive theme mode and variant from the wallpaper",
+        null
+      ],
+      [
+        "GPU",
+        null
+      ],
+      [
+        "Monitoring: %1",
+        null
+      ],
+      [
+        "Override for GPU type",
+        null
+      ]
+    ],
+    "modules/nexus/pages/WallpaperAndStyle.qml": [
+      [
+        "Wallpaper & style",
+        null
+      ],
+      [
+        "Wallpaper disabled",
+        null
+      ],
+      [
+        "Wallpapers",
+        null
+      ],
+      [
+        "Colours",
+        null
+      ],
+      [
+        "Display wallpaper",
+        null
+      ],
+      [
+        "Transparency",
+        null
+      ],
+      [
+        "Base %1, layers %2",
+        null
+      ],
+      [
+        "Dark theme",
+        null
+      ]
+    ],
+    "modules/nexus/pages/apps/AllApps.qml": [
+      [
+        "All apps",
+        null
+      ]
+    ],
+    "modules/nexus/pages/apps/AppInfo.qml": [
+      [
+        "App info",
+        null
+      ],
+      [
+        "Launcher",
+        null
+      ],
+      [
+        "Favourite",
+        null
+      ],
+      [
+        "Matched by a regex in favouriteApps — edit the config file to change",
+        null
+      ],
+      [
+        "Pin to the top of the launcher",
+        null
+      ],
+      [
+        "Hidden",
+        null
+      ],
+      [
+        "Matched by a regex in hiddenApps — edit the config file to change",
+        null
+      ],
+      [
+        "Hide from the launcher",
+        null
+      ],
+      [
+        "Details",
+        null
+      ],
+      [
+        "App ID",
+        null
+      ],
+      [
+        "Command",
+        null
+      ]
+    ],
+    "modules/nexus/pages/audio/AppVolumes.qml": [
+      [
+        "App volumes",
+        null
+      ],
+      [
+        "Adjust the volume of individual apps currently playing audio.",
+        null
+      ],
+      [
+        "No apps playing audio",
+        null
+      ]
+    ],
+    "modules/nexus/pages/bluetooth/BluetoothPairing.qml": [
+      [
+        "Pair new device",
+        null
+      ],
+      [
+        "Available devices",
+        null
+      ],
+      [
+        "Searching for devices…",
+        null
+      ],
+      [
+        "Unknown device",
+        null
+      ],
+      [
+        "Pairing...",
+        null
+      ]
+    ],
+    "modules/nexus/pages/bluetooth/BtDeviceInfo.qml": [
+      [
+        "Connected • %1",
+        null
+      ],
+      [
+        "Connected",
+        null
+      ],
+      [
+        "Paired",
+        null
+      ],
+      [
+        "Not paired",
+        null
+      ],
+      [
+        "Device",
+        null
+      ],
+      [
+        "Forget",
+        null
+      ],
+      [
+        "Disconnect",
+        null
+      ],
+      [
+        "Connect",
+        null
+      ],
+      [
+        "Trusted",
+        null
+      ],
+      [
+        "Allow this device to connect automatically",
+        null
+      ],
+      [
+        "Blocked",
+        null
+      ],
+      [
+        "Prevent this device from connecting",
+        null
+      ],
+      [
+        "Wake allowed",
+        null
+      ],
+      [
+        "Allow this device to wake the system",
+        null
+      ],
+      [
+        "Battery",
+        null
+      ],
+      [
+        "Unavailable",
+        null
+      ],
+      [
+        "Address",
+        null
+      ]
+    ],
+    "modules/nexus/pages/network/AddNetworkPage.qml": [
+      [
+        "Add network",
+        null
+      ],
+      [
+        "Enter the details below to manually connect to a network.",
+        null
+      ],
+      [
+        "Network name (SSID)",
+        null
+      ],
+      [
+        "e.g. MyHiddenNetwork",
+        null
+      ],
+      [
+        "Network name is required",
+        null
+      ],
+      [
+        "Hidden network",
+        null
+      ],
+      [
+        "Actively probe for a network that doesn't broadcast its name",
+        null
+      ],
+      [
+        "Security",
+        null
+      ],
+      [
+        "WPA/WPA2/WPA3 Personal",
+        null
+      ],
+      [
+        "WPA/WPA2/WPA3 Personal",
+        null
+      ],
+      [
+        "None (open)",
+        null
+      ],
+      [
+        "Password",
+        null
+      ],
+      [
+        "WPA passwords are at least 8 characters",
+        null
+      ],
+      [
+        "Connection failed — check the password",
+        null
+      ],
+      [
+        "Password must be at least 8 characters",
+        null
+      ],
+      [
+        "Cancel",
+        null
+      ],
+      [
+        "Connect",
+        null
+      ]
+    ],
+    "modules/nexus/pages/network/AddVpnPage.qml": [
+      [
+        "Edit VPN provider",
+        null
+      ],
+      [
+        "Add VPN provider",
+        null
+      ],
+      [
+        "Built-in names (wireguard, warp, tailscale, netbird) auto-fill their commands. For others, provide the connect/disconnect commands.",
+        null
+      ],
+      [
+        "Provider name",
+        null
+      ],
+      [
+        "Built-in id or a custom name",
+        null
+      ],
+      [
+        "Provider name is required",
+        null
+      ],
+      [
+        "Display name",
+        null
+      ],
+      [
+        "Shown in the list",
+        null
+      ],
+      [
+        "Interface",
+        null
+      ],
+      [
+        "Network interface (for WireGuard / status checks)",
+        null
+      ],
+      [
+        "Custom commands (optional)",
+        null
+      ],
+      [
+        "Connect command",
+        null
+      ],
+      [
+        "Leave empty to use the built-in default",
+        null
+      ],
+      [
+        "Disconnect command",
+        null
+      ],
+      [
+        "Leave empty to use the built-in default",
+        null
+      ],
+      [
+        "Delete",
+        null
+      ],
+      [
+        "Cancel",
+        null
+      ],
+      [
+        "Save",
+        null
+      ],
+      [
+        "Add",
+        null
+      ]
+    ],
+    "modules/nexus/pages/network/AllNetworksPage.qml": [
+      [
+        "All networks",
+        null
+      ],
+      [
+        "Filters",
+        null
+      ],
+      [
+        "Saved",
+        null
+      ],
+      [
+        "Secured",
+        null
+      ],
+      [
+        "5 GHz",
+        null
+      ],
+      [
+        "2.4 GHz",
+        null
+      ]
+    ],
+    "modules/nexus/pages/network/EthernetDetailPage.qml": [
+      [
+        "Ethernet",
+        null
+      ],
+      [
+        "Disconnect",
+        null
+      ],
+      [
+        "Connect",
+        null
+      ],
+      [
+        "Connection",
+        null
+      ],
+      [
+        "Status",
+        null
+      ],
+      [
+        "Connected",
+        null
+      ],
+      [
+        "Not connected",
+        null
+      ],
+      [
+        "Interface",
+        null
+      ],
+      [
+        "Speed",
+        null
+      ],
+      [
+        "IP address",
+        null
+      ],
+      [
+        "Gateway",
+        null
+      ],
+      [
+        "MAC address",
+        null
+      ],
+      [
+        "IPv4",
+        null
+      ],
+      [
+        "IP assignment",
+        null
+      ],
+      [
+        "Automatic (DHCP)",
+        null
+      ],
+      [
+        "Automatic (DHCP)",
+        null
+      ],
+      [
+        "Automatic, DNS only",
+        null
+      ],
+      [
+        "Manual",
+        null
+      ],
+      [
+        "Address (CIDR)",
+        null
+      ],
+      [
+        "IP and prefix, e.g. 192.168.1.50/24",
+        null
+      ],
+      [
+        "Enter a valid address in CIDR notation",
+        null
+      ],
+      [
+        "Gateway",
+        null
+      ],
+      [
+        "Enter a valid gateway address",
+        null
+      ],
+      [
+        "DNS servers",
+        null
+      ],
+      [
+        "Comma-separated",
+        null
+      ],
+      [
+        "Enter valid DNS server addresses",
+        null
+      ],
+      [
+        "Apply",
+        null
+      ]
+    ],
+    "modules/nexus/pages/network/NetworkDetailPage.qml": [
+      [
+        "Network",
+        null
+      ],
+      [
+        "Forget",
+        null
+      ],
+      [
+        "Disconnect",
+        null
+      ],
+      [
+        "Connection",
+        null
+      ],
+      [
+        "Signal",
+        null
+      ],
+      [
+        "Security",
+        null
+      ],
+      [
+        "Open",
+        null
+      ],
+      [
+        "Frequency",
+        null
+      ],
+      [
+        "%1 MHz",
+        null
+      ],
+      [
+        "IP address",
+        null
+      ],
+      [
+        "Gateway",
+        null
+      ],
+      [
+        "MAC address",
+        null
+      ],
+      [
+        "Behaviour",
+        null
+      ],
+      [
+        "Connect automatically",
+        null
+      ],
+      [
+        "Join this network when it's in range",
+        null
+      ],
+      [
+        "IPv4",
+        null
+      ],
+      [
+        "IP assignment",
+        null
+      ],
+      [
+        "Automatic (DHCP)",
+        null
+      ],
+      [
+        "Automatic (DHCP)",
+        null
+      ],
+      [
+        "Automatic, DNS only",
+        null
+      ],
+      [
+        "Manual",
+        null
+      ],
+      [
+        "Address (CIDR)",
+        null
+      ],
+      [
+        "IP and prefix, e.g. 192.168.1.50/24",
+        null
+      ],
+      [
+        "Enter a valid address in CIDR notation",
+        null
+      ],
+      [
+        "Gateway",
+        null
+      ],
+      [
+        "Enter a valid gateway address",
+        null
+      ],
+      [
+        "DNS servers",
+        null
+      ],
+      [
+        "Comma-separated",
+        null
+      ],
+      [
+        "Enter valid DNS server addresses",
+        null
+      ],
+      [
+        "Apply",
+        null
+      ]
+    ],
+    "modules/nexus/pages/network/SavedNetworksPage.qml": [
+      [
+        "Saved networks",
+        null
+      ],
+      [
+        "No saved networks",
+        null
+      ],
+      [
+        "Open",
+        null
+      ],
+      [
+        "Unknown",
+        null
+      ],
+      [
+        "Connected • %1",
+        null
+      ]
+    ],
+    "modules/nexus/pages/panels/DashboardPanel.qml": [
+      [
+        "Dashboard",
+        null
+      ],
+      [
+        "General",
+        null
+      ],
+      [
+        "Enabled",
+        null
+      ],
+      [
+        "Show on hover",
+        null
+      ],
+      [
+        "Reveal when the cursor reaches the screen edge",
+        null
+      ],
+      [
+        "Show clock seconds",
+        null
+      ],
+      [
+        "Display seconds for the clock in the main panel",
+        null
+      ],
+      [
+        "Tabs",
+        null
+      ],
+      [
+        "Dashboard",
+        null
+      ],
+      [
+        "Media",
+        null
+      ],
+      [
+        "Performance",
+        null
+      ],
+      [
+        "Weather",
+        null
+      ],
+      [
+        "Performance widgets",
+        null
+      ],
+      [
+        "Battery",
+        null
+      ],
+      [
+        "GPU",
+        null
+      ],
+      [
+        "CPU",
+        null
+      ],
+      [
+        "Memory",
+        null
+      ],
+      [
+        "Storage",
+        null
+      ],
+      [
+        "Network",
+        null
+      ],
+      [
+        "Behaviour",
+        null
+      ],
+      [
+        "Drag threshold",
+        null
+      ],
+      [
+        "Pixels dragged before the dashboard opens",
+        null
+      ]
+    ],
+    "modules/nexus/pages/panels/LauncherPanel.qml": [
+      [
+        "Launcher",
+        null
+      ],
+      [
+        "General",
+        null
+      ],
+      [
+        "Enabled",
+        null
+      ],
+      [
+        "Show on hover",
+        null
+      ],
+      [
+        "Reveal when the cursor reaches the screen edge",
+        null
+      ],
+      [
+        "Action prefix",
+        null
+      ],
+      [
+        "Prefix used to run actions in the launcher",
+        null
+      ],
+      [
+        "Prefix must not be alphanumeric",
+        null
+      ],
+      [
+        "Display",
+        null
+      ],
+      [
+        "Max items shown",
+        null
+      ],
+      [
+        "Max wallpapers",
+        null
+      ],
+      [
+        "Drag threshold",
+        null
+      ],
+      [
+        "Pixels dragged before the launcher opens",
+        null
+      ],
+      [
+        "Behaviour",
+        null
+      ],
+      [
+        "Vim keybinds",
+        null
+      ],
+      [
+        "Navigate results with Ctrl+hjkl",
+        null
+      ],
+      [
+        "Enable dangerous actions",
+        null
+      ],
+      [
+        "Allow actions that shut down or log out",
+        null
+      ],
+      [
+        "Fuzzy search",
+        null
+      ],
+      [
+        "Apps",
+        null
+      ],
+      [
+        "Actions",
+        null
+      ],
+      [
+        "Schemes",
+        null
+      ],
+      [
+        "Variants",
+        null
+      ],
+      [
+        "Wallpapers",
+        null
+      ]
+    ],
+    "modules/nexus/pages/panels/SidebarPanel.qml": [
+      [
+        "Sidebar",
+        null
+      ],
+      [
+        "General",
+        null
+      ],
+      [
+        "Enabled",
+        null
+      ],
+      [
+        "Drag threshold",
+        null
+      ],
+      [
+        "Pixels dragged before the sidebar opens",
+        null
+      ]
+    ],
+    "modules/nexus/pages/panels/TaskbarPanel.qml": [
+      [
+        "Taskbar",
+        null
+      ],
+      [
+        "Behaviour",
+        null
+      ],
+      [
+        "Persistent",
+        null
+      ],
+      [
+        "Keep the bar visible at all times",
+        null
+      ],
+      [
+        "Show on hover",
+        null
+      ],
+      [
+        "Reveal the bar when the cursor reaches the screen edge",
+        null
+      ],
+      [
+        "Drag threshold",
+        null
+      ],
+      [
+        "Pixels dragged before the bar reveals",
+        null
+      ],
+      [
+        "Components",
+        null
+      ],
+      [
+        "Workspaces",
+        null
+      ],
+      [
+        "Indicators, window icons",
+        null
+      ],
+      [
+        "Active window",
+        null
+      ],
+      [
+        "Title display, popout",
+        null
+      ],
+      [
+        "Tray",
+        null
+      ],
+      [
+        "System tray icons",
+        null
+      ],
+      [
+        "Status icons",
+        null
+      ],
+      [
+        "Visible indicators",
+        null
+      ],
+      [
+        "Clock",
+        null
+      ],
+      [
+        "Date, icon, background",
+        null
+      ],
+      [
+        "Scroll actions",
+        null
+      ],
+      [
+        "Workspaces",
+        null
+      ],
+      [
+        "Scroll over the workspace indicator to switch workspaces",
+        null
+      ],
+      [
+        "Volume",
+        null
+      ],
+      [
+        "Scroll on the top half of the bar to adjust volume",
+        null
+      ],
+      [
+        "Brightness",
+        null
+      ],
+      [
+        "Scroll on the bottom half of the bar to adjust brightness",
+        null
+      ]
+    ],
+    "modules/nexus/pages/panels/UtilitiesPanel.qml": [
+      [
+        "Utilities",
+        null
+      ],
+      [
+        "General",
+        null
+      ],
+      [
+        "Enabled",
+        null
+      ],
+      [
+        "Show the utilities panel",
+        null
+      ],
+      [
+        "Cards",
+        null
+      ],
+      [
+        "Keep awake",
+        null
+      ],
+      [
+        "Show the idle inhibitor card",
+        null
+      ],
+      [
+        "Screen recorder",
+        null
+      ],
+      [
+        "Show the screen recorder card",
+        null
+      ],
+      [
+        "Quick toggles",
+        null
+      ],
+      [
+        "Show the quick toggles card",
+        null
+      ],
+      [
+        "Quick toggles",
+        null
+      ],
+      [
+        "Wi-Fi",
+        null
+      ],
+      [
+        "Toggle wireless networking",
+        null
+      ],
+      [
+        "Bluetooth",
+        null
+      ],
+      [
+        "Toggle the Bluetooth adapter",
+        null
+      ],
+      [
+        "Microphone",
+        null
+      ],
+      [
+        "Mute or unmute the default source",
+        null
+      ],
+      [
+        "Settings",
+        null
+      ],
+      [
+        "Open the settings window",
+        null
+      ],
+      [
+        "Game mode",
+        null
+      ],
+      [
+        "Toggle game mode",
+        null
+      ],
+      [
+        "Do not disturb",
+        null
+      ],
+      [
+        "Silence notifications",
+        null
+      ],
+      [
+        "VPN",
+        null
+      ],
+      [
+        "Connect or disconnect the VPN",
+        null
+      ]
+    ],
+    "modules/nexus/pages/panels/taskbar/BarActiveWindow.qml": [
+      [
+        "Active window",
+        null
+      ],
+      [
+        "Compact",
+        null
+      ],
+      [
+        "Inverted",
+        null
+      ],
+      [
+        "Show on hover",
+        null
+      ],
+      [
+        "Only show the active window title while hovering",
+        null
+      ],
+      [
+        "Popout on hover",
+        null
+      ],
+      [
+        "Show a window details popout when hovering",
+        null
+      ]
+    ],
+    "modules/nexus/pages/panels/taskbar/BarClock.qml": [
+      [
+        "Clock",
+        null
+      ],
+      [
+        "Background",
+        null
+      ],
+      [
+        "Show date",
+        null
+      ],
+      [
+        "Show icon",
+        null
+      ],
+      [
+        "Show seconds",
+        null
+      ]
+    ],
+    "modules/nexus/pages/panels/taskbar/BarStatusIcons.qml": [
+      [
+        "Lock keys",
+        null
+      ],
+      [
+        "Keyboard layout",
+        null
+      ],
+      [
+        "Speakers",
+        null
+      ],
+      [
+        "Microphone",
+        null
+      ],
+      [
+        "Network",
+        null
+      ],
+      [
+        "Bluetooth",
+        null
+      ],
+      [
+        "Battery",
+        null
+      ],
+      [
+        "Status icons",
+        null
+      ],
+      [
+        "Visible icons",
+        null
+      ],
+      [
+        "Add entry",
+        null
+      ],
+      [
+        "Add new entry",
+        null
+      ],
+      [
+        "Add",
+        null
+      ],
+      [
+        "Behaviour",
+        null
+      ],
+      [
+        "Popout on hover",
+        null
+      ],
+      [
+        "Show a details popout when hovering the status icons",
+        null
+      ]
+    ],
+    "modules/nexus/pages/panels/taskbar/BarTray.qml": [
+      [
+        "Tray",
+        null
+      ],
+      [
+        "Background",
+        null
+      ],
+      [
+        "Recolour icons",
+        null
+      ],
+      [
+        "Compact",
+        null
+      ],
+      [
+        "Popout on hover",
+        null
+      ],
+      [
+        "Show the tray menu popout when hovering",
+        null
+      ]
+    ],
+    "modules/nexus/pages/panels/taskbar/BarWorkspaces.qml": [
+      [
+        "Workspaces",
+        null
+      ],
+      [
+        "Shown",
+        null
+      ],
+      [
+        "Number of workspaces displayed",
+        null
+      ],
+      [
+        "Active indicator",
+        null
+      ],
+      [
+        "Active trail",
+        null
+      ],
+      [
+        "Occupied background",
+        null
+      ],
+      [
+        "Show unoccupied",
+        null
+      ],
+      [
+        "Show workspaces that are inactive and empty",
+        null
+      ],
+      [
+        "Per monitor",
+        null
+      ],
+      [
+        "Hide workspaces not on the current monitor",
+        null
+      ],
+      [
+        "Show windows",
+        null
+      ],
+      [
+        "Show icons of open windows on each workspace",
+        null
+      ],
+      [
+        "Windows on special workspaces",
+        null
+      ],
+      [
+        "Max window icons",
+        null
+      ]
+    ],
+    "modules/nexus/pages/services/NotificationsPage.qml": [
+      [
+        "On",
+        null
+      ],
+      [
+        "Off",
+        null
+      ],
+      [
+        "Off",
+        null
+      ],
+      [
+        "Important",
+        null
+      ],
+      [
+        "On",
+        null
+      ],
+      [
+        "Notifications",
+        null
+      ],
+      [
+        "Notifications",
+        null
+      ],
+      [
+        "Show in fullscreen",
+        null
+      ],
+      [
+        "Whether notifications appear over fullscreen apps",
+        null
+      ],
+      [
+        "Expire automatically",
+        null
+      ],
+      [
+        "Dismiss notifications after their timeout",
+        null
+      ],
+      [
+        "Open expanded",
+        null
+      ],
+      [
+        "Show notifications expanded by default",
+        null
+      ],
+      [
+        "Default timeout",
+        null
+      ],
+      [
+        "Time before a notification dismisses (ms)",
+        null
+      ],
+      [
+        "Group preview count",
+        null
+      ],
+      [
+        "Notifications shown per group before collapsing",
+        null
+      ],
+      [
+        "Toasts",
+        null
+      ],
+      [
+        "Show in fullscreen",
+        null
+      ],
+      [
+        "Whether toasts appear over fullscreen apps",
+        null
+      ],
+      [
+        "Visible toasts",
+        null
+      ],
+      [
+        "Maximum number of toasts shown at once",
+        null
+      ],
+      [
+        "Toast events",
+        null
+      ],
+      [
+        "Charging changes",
+        null
+      ],
+      [
+        "Game mode changes",
+        null
+      ],
+      [
+        "Do not disturb changes",
+        null
+      ],
+      [
+        "Audio output changes",
+        null
+      ],
+      [
+        "Audio input changes",
+        null
+      ],
+      [
+        "Caps lock changes",
+        null
+      ],
+      [
+        "Num lock changes",
+        null
+      ],
+      [
+        "Keyboard layout changes",
+        null
+      ],
+      [
+        "VPN changes",
+        null
+      ],
+      [
+        "Now playing",
+        null
+      ]
+    ],
+    "modules/nexus/pages/wallandstyle/ColourSelect.qml": [
+      [
+        "Colours",
+        null
+      ],
+      [
+        "Page under construction",
+        null
+      ],
+      [
+        "This page will be available in a future update.",
+        null
+      ]
+    ],
+    "modules/nexus/pages/wallandstyle/WallpaperSelect.qml": [
+      [
+        "Wallpapers",
+        null
+      ],
+      [
+        "Browse",
+        null
+      ],
+      [
+        "Select an image",
+        null
+      ],
+      [
+        "Image files",
+        null
+      ],
+      [
+        "Random",
+        null
+      ],
+      [
+        "Featured wallpaper",
+        null
+      ],
+      [
+        "Local wallpapers",
+        null
+      ],
+      [
+        "No local wallpapers found",
+        null
+      ]
+    ],
+    "modules/sidebar/Notif.qml": [
+      [
+        "No body here! :/",
+        null
+      ]
+    ],
+    "modules/sidebar/NotifDock.qml": [
+      [
+        "notification",
+        "notifications"
+      ],
+      [
+        "Notifications",
+        null
+      ],
+      [
+        "All up to date!",
+        null
+      ]
+    ],
+    "modules/utilities/RecordingDeleteModal.qml": [
+      [
+        "Delete recording?",
+        null
+      ],
+      [
+        "Recording '%1' will be permanently deleted.",
+        null
+      ],
+      [
+        "Cancel",
+        null
+      ],
+      [
+        "Delete",
+        null
+      ]
+    ],
+    "modules/utilities/cards/IdleInhibit.qml": [
+      [
+        "Keep awake",
+        null
+      ],
+      [
+        "Preventing sleep mode",
+        null
+      ],
+      [
+        "Normal power management",
+        null
+      ],
+      [
+        "Active since %1",
+        null
+      ]
+    ],
+    "modules/utilities/cards/Record.qml": [
+      [
+        "Screen recorder",
+        null
+      ],
+      [
+        "Paused",
+        null
+      ],
+      [
+        "Running...",
+        null
+      ],
+      [
+        "Ready",
+        null
+      ],
+      [
+        "Record fullscreen",
+        null
+      ],
+      [
+        "Fullscreen",
+        null
+      ],
+      [
+        "Record region",
+        null
+      ],
+      [
+        "Region",
+        null
+      ],
+      [
+        "Record fullscreen with sound",
+        null
+      ],
+      [
+        "Fullscreen",
+        null
+      ],
+      [
+        "Record region with sound",
+        null
+      ],
+      [
+        "Region",
+        null
+      ],
+      [
+        "PAUSED",
+        null
+      ],
+      [
+        "REC",
+        null
+      ],
+      [
+        "Recording for %1",
+        null
+      ]
+    ],
+    "modules/utilities/cards/RecordingList.qml": [
+      [
+        "Recordings",
+        null
+      ],
+      [
+        "Recording at %1",
+        null
+      ],
+      [
+        "No recordings found",
+        null
+      ]
+    ],
+    "modules/utilities/cards/Toggles.qml": [
+      [
+        "Quick toggles",
+        null
+      ]
+    ],
+    "modules/utilities/toasts/ToastItem.qml": [],
+    "modules/windowinfo/Buttons.qml": [
+      [
+        "Move to workspace",
+        null
+      ],
+      [
+        "Tile",
+        null
+      ],
+      [
+        "Float",
+        null
+      ],
+      [
+        "Unpin",
+        null
+      ],
+      [
+        "Pin",
+        null
+      ],
+      [
+        "Kill",
+        null
+      ]
+    ],
+    "modules/windowinfo/Details.qml": [
+      [
+        "No active client",
+        null
+      ],
+      [
+        "No active client",
+        null
+      ],
+      [
+        "Address: %1",
+        null
+      ],
+      [
+        "Address: unknown",
+        null
+      ],
+      [
+        "Position: %1, %2",
+        null
+      ],
+      [
+        "Size: %1 x %2",
+        null
+      ],
+      [
+        "Workspace: %1 (%2)",
+        null
+      ],
+      [
+        "Monitor: %1 (%2) at %3, %4",
+        null
+      ],
+      [
+        "Monitor: unknown",
+        null
+      ],
+      [
+        "Initial title: %1",
+        null
+      ],
+      [
+        "Initial title: unknown",
+        null
+      ],
+      [
+        "Initial class: %1",
+        null
+      ],
+      [
+        "Initial class: unknown",
+        null
+      ],
+      [
+        "Process id: %1",
+        null
+      ],
+      [
+        "Floating: yes",
+        null
+      ],
+      [
+        "Floating: no",
+        null
+      ],
+      [
+        "Xwayland: yes",
+        null
+      ],
+      [
+        "Xwayland: no",
+        null
+      ],
+      [
+        "Pinned: yes",
+        null
+      ],
+      [
+        "Pinned: no",
+        null
+      ],
+      [
+        "Fullscreen state: off",
+        null
+      ],
+      [
+        "Fullscreen state: maximised",
+        null
+      ],
+      [
+        "Fullscreen state: on",
+        null
+      ],
+      [
+        "Fullscreen state: unknown",
+        null
+      ]
+    ],
+    "modules/windowinfo/Preview.qml": [
+      [
+        "No active client",
+        null
+      ],
+      [
+        "Try switching to a window",
+        null
+      ],
+      [
+        "No active client",
+        null
+      ],
+      [
+        "%1 on monitor %2 at %3, %4",
+        null
+      ]
+    ],
+    "services/Audio.qml": [
+      [
+        "Unknown",
+        null
+      ],
+      [
+        "Unknown application",
+        null
+      ],
+      [
+        "Unknown device",
+        null
+      ],
+      [
+        "Audio output changed",
+        null
+      ],
+      [
+        "Now using: %1",
+        null
+      ],
+      [
+        "Unknown device",
+        null
+      ],
+      [
+        "Audio input changed",
+        null
+      ],
+      [
+        "Now using: %1",
+        null
+      ],
+      [
+        "Unknown device",
+        null
+      ],
+      [
+        "Unknown device",
+        null
+      ]
+    ],
+    "services/GameMode.qml": [
+      [
+        "Game mode enabled",
+        null
+      ],
+      [
+        "Disabled Hyprland animations, blur, gaps and shadows",
+        null
+      ],
+      [
+        "Game mode disabled",
+        null
+      ],
+      [
+        "Hyprland settings restored",
+        null
+      ]
+    ],
+    "services/Hypr.qml": [
+      [
+        "Unknown",
+        null
+      ]
+    ],
+    "services/Nmcli.qml": [
+      [
+        "Open",
+        null
+      ],
+      [
+        "Enterprise",
+        null
+      ],
+      [
+        "Enhanced Open",
+        null
+      ],
+      [
+        "%1 Gbps",
+        null
+      ],
+      [
+        "%1 Mbps",
+        null
+      ]
+    ],
+    "services/NotifData.qml": [
+      [
+        "now",
+        null
+      ],
+      [
+        "%1d",
+        null
+      ],
+      [
+        "%1h",
+        null
+      ],
+      [
+        "%1m",
+        null
+      ]
+    ],
+    "services/Notifs.qml": [
+      [
+        "Do not disturb enabled",
+        null
+      ],
+      [
+        "Popup notifications are now disabled",
+        null
+      ],
+      [
+        "Do not disturb disabled",
+        null
+      ],
+      [
+        "Popup notifications are now enabled",
+        null
+      ]
+    ],
+    "services/Players.qml": [
+      [
+        "Now playing",
+        null
+      ],
+      [
+        "%1 - %2",
+        null
+      ]
+    ],
+    "services/VPN.qml": [
+      [
+        "VPN connection failed",
+        null
+      ],
+      [
+        "VPN disconnection failed",
+        null
+      ],
+      [
+        "Login required",
+        null
+      ],
+      [
+        "Machine authorisation required",
+        null
+      ],
+      [
+        "Tailscale may not be running",
+        null
+      ],
+      [
+        "Authentication required",
+        null
+      ],
+      [
+        "Failed to parse status",
+        null
+      ],
+      [
+        "WARP registration required",
+        null
+      ],
+      [
+        "Unknown WARP status",
+        null
+      ],
+      [
+        "Authentication required",
+        null
+      ],
+      [
+        "VPN",
+        null
+      ],
+      [
+        "VPN connected",
+        null
+      ],
+      [
+        "Connected to %1",
+        null
+      ],
+      [
+        "VPN disconnected",
+        null
+      ],
+      [
+        "Disconnected from %1",
+        null
+      ],
+      [
+        "Authentication required",
+        null
+      ],
+      [
+        "VPN authentication required",
+        null
+      ],
+      [
+        "%1: %2",
+        null
+      ],
+      [
+        "Unknown error",
+        null
+      ],
+      [
+        "VPN error",
+        null
+      ],
+      [
+        "%1: %2",
+        null
+      ],
+      [
+        "WireGuard module not loaded. Run: %1",
+        null
+      ],
+      [
+        "Permission denied. Run in terminal: %1",
+        null
+      ],
+      [
+        "Service not running (run: %1)",
+        null
+      ],
+      [
+        "Could not start %1. Is it installed?",
+        null
+      ],
+      [
+        "Could not connect to %1",
+        null
+      ],
+      [
+        "Could not start %1. Is it installed?",
+        null
+      ]
+    ],
+    "services/Weather.qml": [
+      [
+        "No weather",
+        null
+      ],
+      [
+        "Unknown city",
+        null
+      ],
+      [
+        "Unknown city",
+        null
+      ],
+      [
+        "Unknown city",
+        null
+      ],
+      [
+        "Clear",
+        null
+      ],
+      [
+        "Clear",
+        null
+      ],
+      [
+        "Partly cloudy",
+        null
+      ],
+      [
+        "Overcast",
+        null
+      ],
+      [
+        "Fog",
+        null
+      ],
+      [
+        "Fog",
+        null
+      ],
+      [
+        "Drizzle",
+        null
+      ],
+      [
+        "Drizzle",
+        null
+      ],
+      [
+        "Drizzle",
+        null
+      ],
+      [
+        "Freezing drizzle",
+        null
+      ],
+      [
+        "Freezing drizzle",
+        null
+      ],
+      [
+        "Light rain",
+        null
+      ],
+      [
+        "Rain",
+        null
+      ],
+      [
+        "Heavy rain",
+        null
+      ],
+      [
+        "Light rain",
+        null
+      ],
+      [
+        "Heavy rain",
+        null
+      ],
+      [
+        "Light snow",
+        null
+      ],
+      [
+        "Snow",
+        null
+      ],
+      [
+        "Heavy snow",
+        null
+      ],
+      [
+        "Snow",
+        null
+      ],
+      [
+        "Light rain",
+        null
+      ],
+      [
+        "Rain",
+        null
+      ],
+      [
+        "Heavy rain",
+        null
+      ],
+      [
+        "Light snow showers",
+        null
+      ],
+      [
+        "Heavy snow showers",
+        null
+      ],
+      [
+        "Thunderstorm",
+        null
+      ],
+      [
+        "Thunderstorm with hail",
+        null
+      ],
+      [
+        "Thunderstorm with hail",
+        null
+      ],
+      [
+        "Unknown",
+        null
+      ]
+    ],
+    "utils/Strings.qml": [
+      [
+        "%1%",
+        null
+      ]
+    ],
+    "utils/SysInfo.qml": [
+      [
+        ", ",
+        null
+      ],
+      [
+        "%n day",
+        "%n days"
+      ],
+      [
+        "%n hour",
+        "%n hours"
+      ],
+      [
+        "%n minute",
+        "%n minutes"
+      ]
+    ]
+  },
+  "plural_keys": [
+    "%n apps playing audio",
+    "%n days",
+    "%n devices available",
+    "%n devices available (%1 connected)",
+    "%n hours",
+    "%n mins",
+    "%n minutes",
+    "%n networks available",
+    "%n notifications",
+    "notifications"
+  ]
+}

@@ -1,0 +1,42 @@
+name: CI
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install shellcheck
+        run: sudo apt-get update && sudo apt-get install -y shellcheck
+
+      - name: ShellCheck
+        run: shellcheck -x caelestia-zh.sh tests/run-tests.sh
+
+      - name: Python syntax
+        run: python3 -m py_compile tools/apply.py tools/state.py tools/make_map.py
+
+      - name: Validate translation map
+        run: |
+          python3 - <<'PY'
+          import json, sys
+          data = json.load(open("translations/zh_CN.json", encoding="utf-8"))
+          assert data["schema"] == 1, "unexpected schema"
+          assert data["language"] == "zh_CN"
+          assert data["global"], "global translations are empty"
+          assert data["file_hashes"], "file_hashes is empty"
+          assert data["file_sequence"], "file_sequence is empty"
+          print(f"map ok: {len(data['global'])} global entries, "
+                f"{len(data['file_hashes'])} files")
+          PY
+
+      - name: Run test suite
+        run: ./tests/run-tests.sh
