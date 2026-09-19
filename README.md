@@ -47,7 +47,7 @@
 ## 安装
 
 ```bash
-git clone https://github.com/<你的用户名>/caelestia-zh.git
+git clone https://github.com/nhyxb/caelestia-zh.git
 cd caelestia-zh
 ./caelestia-zh.sh install
 ```
